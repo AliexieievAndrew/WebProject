@@ -40,6 +40,13 @@
             <version>2.3.23</version>
         </dependency>
 
+        <!--JSTl -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+
     </dependencies>
     
 </project>

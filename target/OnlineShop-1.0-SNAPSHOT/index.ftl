@@ -6,7 +6,6 @@
 <#assign js = "/resources/js"/>
 <#assign images = "/resources/images"/>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,8 +18,16 @@
 
     <title>Delivery food homepage - ${title}</title>
 
+    <#--for lights buttons-->
+    <script>
+        window.menu = '${title}';
+    </script>
+
     <!-- Bootstrap core CSS -->
     <link href="${css}/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap minty theme -->
+    <link href="${css}/bootstrap-minty-theme.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="${css}/myapp.css" rel="stylesheet">
@@ -29,35 +36,27 @@
 
 <body>
 
-<!-- Navigation -->
-<#include "WEB-INF/views/shared/navbar.ftl">
+<div class="wrapper">
 
-<#include "WEB-INF/views/${userClick}.ftl">
+    <!-- Navigation -->
+    <#include "WEB-INF/views/shared/navbar.ftl">
 
-<#--<#switch userClick>-->
-    <#--<#case "home">-->
-        <#--<#include "WEB-INF/views/home.ftl">-->
-        <#--<#break>-->
-    <#--<#case "about">-->
-        <#--<#include "WEB-INF/views/about.ftl">-->
-        <#--<#break>-->
-    <#--<#case "allproducts">-->
-        <#--<#include "WEB-INF/views/allproducts.ftl">-->
-        <#--<#break>-->
-    <#--<#case "contact">-->
-        <#--<#include "WEB-INF/views/contact.ftl">-->
-        <#--<#break>-->
-<#--</#switch>-->
+    <#--Page content-->
+    <div class="content">
+        <#include "WEB-INF/views/${userClick}.ftl">
+    </div>
 
-<!-- /.container -->
+    <!-- Footer -->
+    <#include "WEB-INF/views/shared/footer.ftl">
 
-<!-- Footer -->
-<#include "WEB-INF/views/shared/footer.ftl">
+    <!-- Bootstrap core JavaScript -->
+    <script src="${js}/jquery.min.js"></script>
+    <script src="${js}/bootstrap.bundle.min.js"></script>
 
-<!-- Bootstrap core JavaScript -->
-<script src="${js}/jquery.min.js"></script>
-<script src="${js}/bootstrap.bundle.min.js"></script>
+    <#--Self coded javascript-->
+    <script src="${js}/myapp.js"></script>
 
+</div>
 </body>
 
 </html>

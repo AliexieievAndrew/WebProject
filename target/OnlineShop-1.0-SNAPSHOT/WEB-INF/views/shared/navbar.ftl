@@ -2,7 +2,7 @@
 <#assign context = springMacroRequestContext.getContextPath()/>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
     <div class="container">
         <a class="navbar-brand" href="${context}/home">Delivery food</a>
         <button
@@ -17,20 +17,33 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="${context}/home">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
+                <li id = "home">
+                    <a class="nav-link" href="${context}/home">Home</a>
                 </li>
-                <li class="nav-item">
+                <li id = "about">
                     <a class="nav-link" href="${context}/about">About</a>
                 </li>
-                <li class="nav-item">
+                <li id = "allproducts">
                     <a class="nav-link" href="${context}/allproducts">All Products</a>
                 </li>
-                <li class="nav-item">
+                <li id = "contact">
                     <a class="nav-link" href="${context}/contact">Contact</a>
                 </li>
+                <#---->
+                <#--<li class="nav-item active">-->
+                    <#--<a class="nav-link" href="${context}/home">Home-->
+                        <#--<span class="sr-only">(current)</span>-->
+                    <#--</a>-->
+                <#--</li>-->
+                <#--<li class="nav-item">-->
+                    <#--<a class="nav-link" href="${context}/about">About</a>-->
+                <#--</li>-->
+                <#--<li class="nav-item">-->
+                    <#--<a class="nav-link" href="${context}/allproducts">All Products</a>-->
+                <#--</li>-->
+                <#--<li class="nav-item">-->
+                    <#--<a class="nav-link" href="${context}/contact">Contact</a>-->
+                <#--</li>-->
             </ul>
         </div>
     </div>

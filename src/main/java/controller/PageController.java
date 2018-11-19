@@ -12,7 +12,28 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class PageController {
 
     @GetMapping(value = {"/", "/home","/index"})
-    public String index() {
+    public String index(Model model) {
+        model.addAttribute("title","Home");
+        model.addAttribute("userClick", "home");
+        return "index";
+    }
+
+    @GetMapping(value = {"/about"})
+    public String about(Model model) {
+        model.addAttribute("title","About");
+        model.addAttribute("userClick", "about");
+        return "index";
+    }
+    @GetMapping(value = {"/allproducts"})
+    public String allProducts(Model model) {
+        model.addAttribute("title","About");
+        model.addAttribute("userClick","allproducts");
+        return "index";
+    }
+    @GetMapping(value = {"/contact"})
+    public String contact(Model model) {
+        model.addAttribute("title","Contact");
+        model.addAttribute("userClick","contact");
         return "index";
     }
 

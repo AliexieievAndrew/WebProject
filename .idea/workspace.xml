@@ -6,68 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c8f8010-5189-4caf-8453-89bec5aed653" name="Default Changelist" comment="added assets (css,font,images,js), edit index.ftl. Launch home page">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/OnlineShop_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/PageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/config/WebAppInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/config/WebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/controller/PageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/lib/freemarker-2.3.23.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.1.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.1.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.1.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.1.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/index.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/config/WebAppInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/config/WebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controller/PageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/test.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/myapp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/OnlineShop_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/OnlineShop_war_exploded.xml" afterDir="false" />
+    <list default="true" id="2c8f8010-5189-4caf-8453-89bec5aed653" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/about.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/allproducts.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/contact.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/home.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/shared/footer.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/shared/navbar.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/about.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/contact.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/home.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/shared/footer.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/PageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/controller/PageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/PageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,60 +38,66 @@
     <session id="199163284">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="9" />
-          <entry key="html" value="1" />
+          <entry key="css" value="10" />
+          <entry key="ftl" value="10" />
+          <entry key="html" value="4" />
           <entry key="java" value="3" />
           <entry key="js" value="22" />
           <entry key="jsp" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="ttf" value="1" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="9" />
-          <entry key="HTML" value="1" />
+          <entry key="CSS" value="10" />
+          <entry key="FTL" value="10" />
+          <entry key="Font" value="1" />
+          <entry key="HTML" value="4" />
           <entry key="JAVA" value="3" />
           <entry key="JSP" value="1" />
           <entry key="JavaScript" value="22" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1" />
-          <entry key="ftl" value="225" />
+          <entry key="ftl" value="889" />
           <entry key="html" value="5" />
-          <entry key="java" value="691" />
+          <entry key="java" value="859" />
           <entry key="js" value="1" />
-          <entry key="txt" value="151" />
+          <entry key="txt" value="235" />
           <entry key="xml" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="FTL" value="225" />
+          <entry key="FTL" value="889" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="691" />
+          <entry key="JAVA" value="859" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="151" />
+          <entry key="PLAIN_TEXT" value="235" />
           <entry key="XML" value="130" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state>
               <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -156,14 +118,62 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/PageController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/about.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/contact.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -174,8 +184,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -189,6 +199,8 @@
       <find>f[0].offsetWidth</find>
       <find>offsetWidth</find>
       <find>next[0].offsetWidth</find>
+      <find>shop nam</find>
+      <find>naviga</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,14 +213,21 @@
         <option value="$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/test.html" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/PageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/web/assets/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/web/assets/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/web/assets/css/myapp.css" />
         <option value="$PROJECT_DIR$/web/assets/js/jquery.js" />
         <option value="$PROJECT_DIR$/web/assets/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.html" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/shared/footer.html" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/home.html" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.ftl" />
         <option value="$PROJECT_DIR$/web/index.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/contact.ftl" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/about.ftl" />
       </list>
     </option>
   </component>
@@ -226,7 +245,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="819" />
+    <option name="width" value="820" />
     <option name="height" value="850" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -265,6 +284,27 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -276,7 +316,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542388145852" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542637262545" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -356,7 +396,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542359577174</updated>
-      <workItem from="1542359581996" duration="24167000" />
+      <workItem from="1542359581996" duration="24757000" />
+      <workItem from="1542626872930" duration="9636000" />
     </task>
     <task id="LOCAL-00001" summary="added config classes, controller, successful launch">
       <created>1542365319688</created>
@@ -369,43 +410,44 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24167000" />
+    <option name="totallyTimeSpent" value="34393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.3286119" />
-      <window_info anchor="bottom" id="Spring" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Java Enterprise" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46600565" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.296034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -451,39 +493,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added config classes, controller, successful launch" />
     <MESSAGE value="added assets (css,font,images,js), edit index.ftl. Launch home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added assets (css,font,images,js), edit index.ftl. Launch home page" />
+    <MESSAGE value="created master page, created: &quot;/about&quot;, &quot;/allproducts&quot;,&quot;/contact&quot; pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="created master page, created: &quot;/about&quot;, &quot;/allproducts&quot;,&quot;/contact&quot; pages" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/test.ftl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -494,16 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="692" column="36" selection-start-line="692" selection-start-column="36" selection-end-line="692" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2339">
-          <caret line="2490" column="29" lean-forward="true" selection-start-line="2490" selection-start-column="29" selection-end-line="2490" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,9 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="2601" column="3" selection-start-line="2601" selection-start-column="3" selection-end-line="2601" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,20 +555,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="218" column="82" lean-forward="true" selection-start-line="218" selection-start-column="82" selection-end-line="218" selection-end-column="82" />
+        <state>
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/fonts/glyphicons-halflings-regular.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/shared/footer.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/test.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/home.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="153" column="6" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/contact.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/about.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

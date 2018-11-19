@@ -26,7 +26,7 @@ public class PageController {
     }
     @GetMapping(value = {"/allproducts"})
     public String allProducts(Model model) {
-        model.addAttribute("title","About");
+        model.addAttribute("title","All Products");
         model.addAttribute("userClick","allproducts");
         return "index";
     }

@@ -19,6 +19,9 @@
 
     <title>Delivery food homepage - ${title}</title>
 
+    <script>
+        window.menu = '${title}';
+    </script>
     <!-- Bootstrap core CSS -->
     <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
@@ -34,21 +37,6 @@
 
 <#include "WEB-INF/views/${userClick}.ftl">
 
-<#--<#switch userClick>-->
-    <#--<#case "home">-->
-        <#--<#include "WEB-INF/views/home.ftl">-->
-        <#--<#break>-->
-    <#--<#case "about">-->
-        <#--<#include "WEB-INF/views/about.ftl">-->
-        <#--<#break>-->
-    <#--<#case "allproducts">-->
-        <#--<#include "WEB-INF/views/allproducts.ftl">-->
-        <#--<#break>-->
-    <#--<#case "contact">-->
-        <#--<#include "WEB-INF/views/contact.ftl">-->
-        <#--<#break>-->
-<#--</#switch>-->
-
 <!-- /.container -->
 
 <!-- Footer -->
@@ -58,6 +46,8 @@
 <script src="${js}/jquery.min.js"></script>
 <script src="${js}/bootstrap.bundle.min.js"></script>
 
+<#--Self coded javascript-->
+<script src="${js}/myapp.js"></script>
 </body>
 
 </html>

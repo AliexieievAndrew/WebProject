@@ -7,35 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c8f8010-5189-4caf-8453-89bec5aed653" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/css/bootstrap-minty-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/js/myapp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/css/bootstrap-minty-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/js/myapp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/css/bootstrap-minty-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/js/myapp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/css/bootstrap-minty-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CategoryDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/shared/sidebar.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/controller/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/css/myapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/css/myapp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/contact.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/contact.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/shared/footer.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/shared/footer.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/shared/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/shared/navbar.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/css/myapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/css/myapp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/myapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/css/myapp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/contact.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/contact.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/shared/footer.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/shared/footer.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/PageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/home.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/home.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/css/myapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/myapp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/myapp.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,19 +32,20 @@
     <session id="199163284">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="27" />
-          <entry key="ftl" value="12" />
-          <entry key="html" value="4" />
-          <entry key="java" value="3" />
-          <entry key="js" value="24" />
+          <entry key="css" value="28" />
+          <entry key="ftl" value="18" />
+          <entry key="html" value="5" />
+          <entry key="java" value="11" />
+          <entry key="js" value="27" />
           <entry key="jsp" value="1" />
           <entry key="ttf" value="1" />
           <entry key="xml" value="3" />
@@ -69,35 +53,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="27" />
-          <entry key="FTL" value="12" />
+          <entry key="CSS" value="28" />
+          <entry key="FTL" value="18" />
           <entry key="Font" value="1" />
-          <entry key="HTML" value="4" />
-          <entry key="JAVA" value="3" />
+          <entry key="HTML" value="5" />
+          <entry key="JAVA" value="11" />
           <entry key="JSP" value="1" />
-          <entry key="JavaScript" value="24" />
+          <entry key="JavaScript" value="27" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="382" />
-          <entry key="ftl" value="1235" />
+          <entry key="ftl" value="1683" />
           <entry key="html" value="5" />
-          <entry key="java" value="871" />
-          <entry key="js" value="112" />
-          <entry key="txt" value="293" />
+          <entry key="java" value="2003" />
+          <entry key="js" value="144" />
+          <entry key="txt" value="376" />
           <entry key="xml" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="382" />
-          <entry key="FTL" value="1235" />
+          <entry key="FTL" value="1683" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="871" />
-          <entry key="JavaScript" value="112" />
-          <entry key="PLAIN_TEXT" value="293" />
+          <entry key="JAVA" value="2003" />
+          <entry key="JavaScript" value="144" />
+          <entry key="PLAIN_TEXT" value="376" />
           <entry key="XML" value="130" />
         </counts>
       </usages-collector>
@@ -106,89 +90,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/WebConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/SpringConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="21" column="47" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="47" />
+            <state relative-caret-position="204">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/PageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/contact.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/shared/footer.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7672" column="8" selection-start-line="7672" selection-start-column="8" selection-end-line="7672" selection-end-column="8" />
-              <folding>
-                <element signature="e#75148#75348#2" expanded="true" />
-                <element signature="e#75580#75729#2" expanded="true" />
-                <element signature="e#76295#76441#2" expanded="true" />
-                <element signature="e#76809#76975#1" expanded="true" />
-                <element signature="e#90752#90995#2" expanded="true" />
-                <element signature="e#92012#92261#2" expanded="true" />
-                <element signature="e#125451#125641#2" expanded="true" />
-                <element signature="e#125697#125887#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/assets/css/myapp.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -196,8 +106,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.ftl">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/shared/sidebar.ftl">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/CategoryDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#201#211#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/home.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/PageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -207,9 +180,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -231,6 +205,7 @@
       <find>the</find>
       <find>colo</find>
       <find>F3969A</find>
+      <find>side</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -240,7 +215,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/WebAppInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/test.html" />
         <option value="$PROJECT_DIR$/src/main/java/config/WebConfig.java" />
@@ -250,18 +224,26 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.html" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/shared/footer.html" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/home.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/about.ftl" />
         <option value="$PROJECT_DIR$/web/assets/js/bootstrap.bundle.min.js" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/web/assets/js/myapp.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/contact.ftl" />
         <option value="$PROJECT_DIR$/web/assets/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/web/index.ftl" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.ftl" />
         <option value="$PROJECT_DIR$/web/assets/css/bootstrap-minty-theme.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/shared/footer.ftl" />
         <option value="$PROJECT_DIR$/web/assets/css/myapp.css" />
+        <option value="$PROJECT_DIR$/src/main/java/dto/Category.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/shared/sidebar.html" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/home.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/config/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/shared/sidebar.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/CategoryDAO.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.ftl" />
+        <option value="$PROJECT_DIR$/web/assets/js/myapp.js" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/CategoryDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl" />
       </list>
     </option>
   </component>
@@ -289,6 +271,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,6 +289,29 @@
               <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
@@ -357,14 +363,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542656676485" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542714605830" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -446,7 +451,8 @@
       <option name="presentableId" value="Default" />
       <updated>1542359577174</updated>
       <workItem from="1542359581996" duration="24757000" />
-      <workItem from="1542626872930" duration="28230000" />
+      <workItem from="1542626872930" duration="28976000" />
+      <workItem from="1542700469556" duration="11676000" />
     </task>
     <task id="LOCAL-00001" summary="added config classes, controller, successful launch">
       <created>1542365319688</created>
@@ -469,17 +475,24 @@
       <option name="project" value="LOCAL" />
       <updated>1542641658449</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finish the web interface, fixed footer position, changed web theme to mint">
+      <created>1542656779735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542656779735</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52987000" />
+    <option name="totallyTimeSpent" value="65409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -489,7 +502,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.296034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4674221" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -558,7 +571,8 @@
     <MESSAGE value="added assets (css,font,images,js), edit index.ftl. Launch home page" />
     <MESSAGE value="created master page, created: &quot;/about&quot;, &quot;/allproducts&quot;,&quot;/contact&quot; pages" />
     <MESSAGE value="fixed active menu problem (light's buttons in the navbar)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed active menu problem (light's buttons in the navbar)" />
+    <MESSAGE value="finish the web interface, fixed footer position, changed web theme to mint" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish the web interface, fixed footer position, changed web theme to mint" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -567,9 +581,6 @@
           <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -585,16 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap-theme.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -606,30 +607,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/test.ftl">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/home.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="153" column="6" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/about.ftl">
       <provider selected="true" editor-type-id="text-editor">
@@ -645,30 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/contact.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/myapp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -676,51 +629,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7672" column="8" selection-start-line="7672" selection-start-column="8" selection-end-line="7672" selection-end-column="8" />
-          <folding>
-            <element signature="e#75148#75348#2" expanded="true" />
-            <element signature="e#75580#75729#2" expanded="true" />
-            <element signature="e#76295#76441#2" expanded="true" />
-            <element signature="e#76809#76975#1" expanded="true" />
-            <element signature="e#90752#90995#2" expanded="true" />
-            <element signature="e#92012#92261#2" expanded="true" />
-            <element signature="e#125451#125641#2" expanded="true" />
-            <element signature="e#125697#125887#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap-minty-theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="8212" column="8" selection-start-line="8212" selection-start-column="8" selection-end-line="8212" selection-end-column="8" />
-          <folding>
-            <element signature="e#84784#84984#2" expanded="true" />
-            <element signature="e#85216#85365#2" expanded="true" />
-            <element signature="e#85937#86083#2" expanded="true" />
-            <element signature="e#86457#86623#1" expanded="true" />
-            <element signature="e#105037#105280#2" expanded="true" />
-            <element signature="e#106262#106511#2" expanded="true" />
-            <element signature="e#142035#142225#2" expanded="true" />
-            <element signature="e#142281#142471#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,10 +643,162 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7672" column="8" selection-start-line="7672" selection-start-column="8" selection-end-line="7672" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/contact.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dto/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/SpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/home.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/css/myapp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state relative-caret-position="314">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/myapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/shared/sidebar.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/CategoryDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/CategoryDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#201#211#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
         </state>
       </provider>
     </entry>

@@ -24,26 +24,11 @@
                     <a class="nav-link" href="${context}/about">About</a>
                 </li>
                 <li id = "allproducts">
-                    <a class="nav-link" href="${context}/allproducts">All Products</a>
+                    <a class="nav-link" href="${context}/show/all/products">All Products</a>
                 </li>
                 <li id = "contact">
                     <a class="nav-link" href="${context}/contact">Contact</a>
                 </li>
-                <#---->
-                <#--<li class="nav-item active">-->
-                    <#--<a class="nav-link" href="${context}/home">Home-->
-                        <#--<span class="sr-only">(current)</span>-->
-                    <#--</a>-->
-                <#--</li>-->
-                <#--<li class="nav-item">-->
-                    <#--<a class="nav-link" href="${context}/about">About</a>-->
-                <#--</li>-->
-                <#--<li class="nav-item">-->
-                    <#--<a class="nav-link" href="${context}/allproducts">All Products</a>-->
-                <#--</li>-->
-                <#--<li class="nav-item">-->
-                    <#--<a class="nav-link" href="${context}/contact">Contact</a>-->
-                <#--</li>-->
             </ul>
         </div>
     </div>

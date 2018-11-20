@@ -32,13 +32,11 @@
                         <li class="breadcrumb-item">
                             <a href="${context}/home">Home</a>
                         </li>
-                        <li class="breadcrumb-item active"> All Products</li>
+                        <li class="breadcrumb-item active">All Products</li>
                     </ol>
                 </#if>
                 </div>
             </div>
-
         </div>
-
     </div>
 </div>

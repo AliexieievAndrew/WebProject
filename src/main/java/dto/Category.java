@@ -9,9 +9,7 @@ import javax.persistence.*;
 public class Category {
 
     @Id
-    // связываем переменную с столбцом в таблице
     @Column(name = "id")
-    // указываем, что это будет генерируемое значение
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 

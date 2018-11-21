@@ -1,7 +1,9 @@
 package controller;
 
 import dao.CategoryDAO;
+import dao.ProductDAO;
 import dto.Category;
+import dto.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,6 +19,10 @@ public class PageController {
 
     @Autowired
     CategoryDAO categoryDAO;
+
+    // временно
+    @Autowired
+    ProductDAO productDAO;
 
     @GetMapping(value = {"/", "/home","/index"})
     public String index(Model model) {
@@ -80,11 +86,8 @@ public class PageController {
 
     @GetMapping ("/test")
     public String test(@RequestParam (value = "greeting", required = false) String greeting, Model model) {
-        Category category = new Category();
-        category.setName("TestName2");
-
-        category.setActive(false);
-//        System.out.println("operation: is " + categoryDAO.addCategory(category));
+        Product product = productDAO.get(1);
+        System.out.println("Product name = " + product.getName());
 
         if (greeting == null) {
             greeting = "hello there";

@@ -78,10 +78,14 @@ public class PageController {
     }
 
 
-
-
     @GetMapping ("/test")
     public String test(@RequestParam (value = "greeting", required = false) String greeting, Model model) {
+        Category category = new Category();
+        category.setName("TestName2");
+
+        category.setActive(false);
+//        System.out.println("operation: is " + categoryDAO.addCategory(category));
+
         if (greeting == null) {
             greeting = "hello there";
         }

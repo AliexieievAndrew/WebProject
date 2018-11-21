@@ -1,10 +1,31 @@
 package dto;
 
+import org.hibernate.annotations.Type;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "category")
 public class Category {
+
+    @Id
+    // связываем переменную с столбцом в таблице
+    @Column(name = "id")
+    // указываем, что это будет генерируемое значение
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "description")
     private String description;
+
+    @Column(name = "image_url")
     private String imageURL;
+
+    @Column(name = "is_active")
+    @Type(type = "org.hibernate.type.NumericBooleanType")
     private boolean active = true;
 
     public int getId() {
@@ -45,5 +66,16 @@ public class Category {
 
     public void setActive(boolean active) {
         this.active = active;
+    }
+
+    @Override
+    public String toString() {
+        return "Category{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", imageURL='" + imageURL + '\'' +
+                ", active=" + active +
+                '}';
     }
 }

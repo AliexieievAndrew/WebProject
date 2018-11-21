@@ -1,52 +1,74 @@
 package dao;
 
+import config.HibernateConfig;
 import dto.Category;
+import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Repository
+@Repository("categoryDAO")
+@Transactional // need to create @Service and @ServiceImpl
 public class CategoryDAOImpl implements CategoryDAO{
-    private static List<Category> categories = new ArrayList<Category>();
 
-    // временное тест
-    static {
-        Category category = new Category();
-        category.setId(1);
-        category.setName("Television");
-        category.setDescription("This is some description television");
-        category.setImageURL("CAT_1.png");
-        categories.add(category);
+    @Autowired
+    public SessionFactory sessionFactory;
 
-        category = new Category();
-        category.setId(2);
-        category.setName("Mobile");
-        category.setDescription("This is some description mobile");
-        category.setImageURL("CAT_2.png");
-        categories.add(category);
+    // add category to DB table
 
-
-        category = new Category();
-        category.setId(3);
-        category.setName("Laptop");
-        category.setDescription("This is some description laptop");
-        category.setImageURL("CAT_3.png");
-        categories.add(category);
-
-
-    }
-
-    public List<Category> list() {
-        return categories;
-    }
-
-    public Category get(int id) {
-        for (Category category:categories) {
-            if(category.getId() == id) {
-                return category;
-            }
+    public boolean addCategory(Category category) {
+        try {
+            sessionFactory.getCurrentSession().persist(category);
+            return true;
+        } catch (Exception e){
+            e.printStackTrace();
+            return false;
         }
-        return null;
+    }
+
+    /*
+     * Getting all Categories where is_active = true/(1)
+     * in the string sql need to use name of the class (not name of the table in DB)
+     */
+    public List<Category> list() {
+        String sql = "FROM Category WHERE is_active = 1";
+        Query query = sessionFactory.getCurrentSession().createQuery(sql);
+
+        return query.list();
+    }
+
+    /*
+     * Getting single category by id
+     */
+    public Category get(int id) {
+        return sessionFactory.getCurrentSession().get(Category.class, Integer.valueOf(id));
+    }
+
+    /*
+     * updating a single category
+     */
+    public boolean update(Category category) {
+        try {
+            sessionFactory.getCurrentSession().update(category);
+        } catch (Exception e){
+            e.printStackTrace();
+            return false;
+        }
+        return true;
+    }
+
+    public boolean delete(Category category) {
+        category.setActive(false);
+        try{
+            sessionFactory.getCurrentSession().update(category);
+        } catch (Exception e){
+            e.printStackTrace();
+            return false;
+        }
+        return true;
     }
 }

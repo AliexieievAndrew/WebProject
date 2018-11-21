@@ -29,6 +29,12 @@
     <!-- Bootstrap minty theme -->
     <link href="${css}/bootstrap-minty-theme.css" rel="stylesheet">
 
+    <#--Bootstrap DataTables-->
+    <link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
+
+    <#--Bootstrap DataTables jquery-->
+    <link href="${css}/jquery.dataTables.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="${css}/myapp.css" rel="stylesheet">
 
@@ -53,10 +59,13 @@
     <script src="${js}/jquery.min.js"></script>
     <script src="${js}/bootstrap.bundle.min.js"></script>
 
-    <#--DataTable plugin-->
+<#--DataTable plugin-->
     <script src="${js}/jquery.dataTables.js"></script>
 
-    <#--Self coded javascript (lights buttons)-->
+<#--DataTable boottrap -->
+    <#--<script src="${js}/dataTables.bootstrap.js"></script>-->
+
+<#--Self coded javascript (lights buttons)-->
     <script src="${js}/myapp.js"></script>
 
 </div>

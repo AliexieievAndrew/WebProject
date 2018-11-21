@@ -41,7 +41,7 @@ $(function () {
 
             // configure show expandable list
             lengthMenu: [[3,5,10,-1],["3 products","5 products","10 products","all products"]],
-            pageLength: 5,
+            pageLength: 5, // default
             data: products
         });
     }

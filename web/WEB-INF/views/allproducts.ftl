@@ -37,6 +37,20 @@
                 </#if>
                 </div>
             </div>
+
+            <#--Data Tables-->
+            <div class="row">
+                <div class="col-lg-12">
+                    <table id = "productListTable" class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 </div>

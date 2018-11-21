@@ -53,7 +53,10 @@
     <script src="${js}/jquery.min.js"></script>
     <script src="${js}/bootstrap.bundle.min.js"></script>
 
-    <#--Self coded javascript-->
+    <#--DataTable plugin-->
+    <script src="${js}/jquery.dataTables.js"></script>
+
+    <#--Self coded javascript (lights buttons)-->
     <script src="${js}/myapp.js"></script>
 
 </div>

@@ -1,5 +1,6 @@
     package dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
@@ -32,6 +33,7 @@ public class Product {
 
     @Column(name = "is_active")
     @Type(type = "org.hibernate.type.NumericBooleanType")
+    @JsonIgnore // will be ignore in REST
     private boolean active = true;
 
     @Column(name = "category_id")

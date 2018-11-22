@@ -83,6 +83,18 @@ public class PageController {
         return "index";
     }
 
+    // View a single product
+    @GetMapping(value = "/show/{id}/product")
+    public String getProductById(@PathVariable("id") int id, Model model) {
+        Product product = productDAO.get(id);
+
+        model.addAttribute("title", product.getName());
+        model.addAttribute("product",product);
+        model.addAttribute("userClick","single_product");
+
+        return "index";
+    }
+
 
     @GetMapping ("/test")
     public String test(@RequestParam (value = "greeting", required = false) String greeting, Model model) {

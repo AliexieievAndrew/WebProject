@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
 
-        <#--Would be to displae sidebar-->
+        <#--Would be to display sidebar-->
         <div class="col-lg-3">
 
         <#-- Side bar-->

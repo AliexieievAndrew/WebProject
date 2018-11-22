@@ -48,8 +48,6 @@ $(function () {
         } else{
             jsonUrl = window.contextRoot + '/json/data/category/'+ window.categoryId +'/products';
         }
-
-        console.log(jsonUrl);
         $table.DataTable({
 
             // configure show expandable list

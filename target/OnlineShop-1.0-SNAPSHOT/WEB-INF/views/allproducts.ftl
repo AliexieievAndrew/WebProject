@@ -18,7 +18,13 @@
             <div class="row">
                 <div class="col-lg-12">
 
+                    <#--category if exist-->
                 <#if  category ??>
+
+                    <#--to get product by id-->
+                    <script>
+                        window.categoryId = '${category.id}';
+                    </script>
 
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item">
@@ -28,6 +34,11 @@
                         <li class="breadcrumb-item active">${category.name}</li>
                     </ol>
                     <#else>
+
+                    <#--to get all products-->
+                    <script>
+                        window.categoryId = '';
+                    </script>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item">
                             <a href="${context}/home">Home</a>
@@ -44,10 +55,22 @@
                     <table id = "productListTable" class="table table-striped table-bordered">
                         <thead>
                             <tr>
-                                <th>ID</th>
+                                <th></th>
                                 <th>Name</th>
+                                <th>Description</th>
+                                <th>Price</th>
+                                <th>Operation</th>
                             </tr>
                         </thead>
+                        <tfoot>
+                        <tr>
+                            <th></th>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>Operation</th>
+                        </tr>
+                        </tfoot>
                     </table>
                 </div>
             </div>

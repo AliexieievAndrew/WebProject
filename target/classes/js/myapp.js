@@ -17,18 +17,20 @@ $(function () {
    }
 
    // code for jquery table
+
     // create a dataset (for testing)
-    var products =
-        [
-            ['1',"ABC"],
-            ['2',"DFS"],
-            ['3',"GFD"],
-            ['4',"SSS"],
-            ['5',"PRO"],
-            ['6',"QWE"],
-            ['7',"KOP"],
-            ['8',"LOP"]
-    ];
+    // var products =
+    //     [
+    //         ['1',"ABC"],
+    //         ['2',"DFS"],
+    //         ['3',"GFD"],
+    //         ['4',"SSS"],
+    //         ['5',"PRO"],
+    //         ['6',"QWE"],
+    //         ['7',"KOP"],
+    //         ['8',"LOP"],
+    //         ['9',"LOP"]
+    // ];
 
    // using char $ - because indicating in jquery element
     // productListTable - id Data Tables object in the allproducts.ftl
@@ -36,14 +38,74 @@ $(function () {
 
    // execute the below code only where we have this table
     if($table.length) {
-        // console.log('Inside the table!');
+        // console.log('test string in console');
+
+        // getting JSON url for dataTable
+        // if categoryId = '' will show all products category else - products by category id
+        var jsonUrl = '';
+        if(window.categoryId == '') {
+            jsonUrl = window.contextRoot + '/json/data/all/products';
+        } else{
+            jsonUrl = window.contextRoot + '/json/data/category/'+ window.categoryId +'/products';
+        }
+
+        console.log(jsonUrl);
         $table.DataTable({
 
             // configure show expandable list
             lengthMenu: [[3,5,10,-1],["3 products","5 products","10 products","all products"]],
             pageLength: 5, // default
-            data: products
+            // data: products // for testing
+            ajax: {
+                url: jsonUrl,
+                dataSrc: ''
+            },
+            columns: [
+                // name of the date: according to the structure JSON/dto objects 'Category'
+                {
+                    data: 'code',
+                    mRender: function (data,type,row) {
+                        return '<img ' +
+                            //loading static resources
+                            'src ="' + window.contextRoot +'/resources/images/'+ data +'.jpg" ' +
+                            // to get little (custom) size
+                            'style="width:100px;height:100px;"/>'
+                    }
+                },
+                {
+                    data: 'name'
+                },
+                {
+                    data: 'description',
+                    bSortable: false
+                },
+                {
+                    data: 'unitPrice',
+                    mRender: function (data,type,row) {
+                        return data + ' UAH';
+                    }
+                },
+                {
+                    data: 'id',
+                    bSortable: false,
+                    mRender: function (data,type,row) {
+                        var str = '';
+
+                        // here added buttons icons(eye and cart icon)
+                        str += '<a href="' + window.contextRoot + '/show/'+data+'/product" ' +
+                            'class="btn btn-primary">' +
+                            '<span class="fas fa-eye"></span>' +
+                            '</a> &#160;'; // &#160; gives space between elements
+
+                        str += '<a href ="' + window.contextRoot + '/cart/add/'+data+'/product" ' +
+                            'class="btn btn-success">' +
+                            '<span class="fas fa-shopping-cart"></span>' +
+                            '</a>';
+
+                        return str;
+                    }
+                }
+            ]
         });
     }
-
 });

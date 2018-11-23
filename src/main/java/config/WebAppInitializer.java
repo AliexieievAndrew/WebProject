@@ -1,5 +1,6 @@
 package config;
 
+import exception.GlobalDefaultExceptionHandler;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
@@ -16,8 +17,16 @@ public class WebAppInitializer implements WebApplicationInitializer {
         context.register(WebConfig.class, HibernateConfig.class);
         context.setServletContext(servletContext);
 
-        ServletRegistration.Dynamic dispatcher = servletContext.addServlet("dispatcher", new DispatcherServlet(context));
+
+        DispatcherServlet dispatcherServlet = new DispatcherServlet(context);
+
+        // for Custom Error Page need to throw exception
+        dispatcherServlet.setThrowExceptionIfNoHandlerFound(true);
+
+
+        ServletRegistration.Dynamic dispatcher = servletContext.addServlet("dispatcher", dispatcherServlet);
         dispatcher.setLoadOnStartup(1);
         dispatcher.addMapping("/"); // <servlet-mapping>
+
     }
 }

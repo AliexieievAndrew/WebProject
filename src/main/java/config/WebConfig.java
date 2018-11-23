@@ -13,7 +13,7 @@ import org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver;
 @Configuration
 @EnableWebMvc
 
-@ComponentScan(basePackages = "controller")
+@ComponentScan(basePackages = {"controller","exception"})
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     // loading static resources

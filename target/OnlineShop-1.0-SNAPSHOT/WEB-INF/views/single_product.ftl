@@ -24,7 +24,7 @@
     <#--Disdplay the product image-->
         <div class="col-xs-12 col-sm-5">
             <div class="thumbnail">
-                <img src="${images}/${product.code}.jpg" class="img-fluid img-rounded" style="width:400px;height:400px;">
+                <img src="${images}/${product.code}.jpg" class="img-fluid" style="width:400px;height:400px;">
             </div>
         </div>
 

@@ -4,6 +4,7 @@ import dao.CategoryDAO;
 import dao.ProductDAO;
 import dto.Category;
 import dto.Product;
+import exception.ProductNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -85,8 +86,11 @@ public class PageController {
 
     // View a single product
     @GetMapping(value = "/show/{id}/product")
-    public String getProductById(@PathVariable("id") int id, Model model) {
+    public String getProductById(@PathVariable("id") int id, Model model) throws ProductNotFoundException {
         Product product = productDAO.get(id);
+
+        if(product == null)
+            throw new ProductNotFoundException();
 
         model.addAttribute("title", product.getName());
         model.addAttribute("product",product);

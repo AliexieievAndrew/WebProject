@@ -7,23 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c8f8010-5189-4caf-8453-89bec5aed653" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/single_product.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/GlobalDefaultExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/error.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/OnlineShop_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/OnlineShop_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/controller/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/css/myapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/css/myapp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/js/myapp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/allproducts.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/allproducts.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/css/myapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/css/myapp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/js/myapp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/myapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/css/myapp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/js/myapp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/myapp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/CategoryDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/CategoryDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/config/WebAppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/config/WebAppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/single_product.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/views/single_product.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/WebAppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/WebAppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/WebConfig.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,13 +59,6 @@
         <item name="Delivery: database" type="bdf80c8a:MssqlImplModel$Database" />
         <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Delivery@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="Delivery: database" type="bdf80c8a:MssqlImplModel$Database" />
-        <item name="dbo: schema" type="3adcb6a6:MssqlImplModel$Schema" />
-        <item name="product: table" type="a00791b9:MssqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -74,73 +66,75 @@
     <session id="199163284">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="category" value="1" />
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="css" value="39" />
-          <entry key="ftl" value="31" />
+          <entry key="ftl" value="32" />
           <entry key="html" value="6" />
-          <entry key="java" value="42" />
+          <entry key="java" value="48" />
           <entry key="jpg" value="1" />
           <entry key="js" value="38" />
           <entry key="jsp" value="1" />
-          <entry key="product" value="3" />
+          <entry key="product" value="4" />
           <entry key="sql" value="3" />
           <entry key="svg" value="2" />
           <entry key="ttf" value="2" />
           <entry key="user_detail" value="1" />
-          <entry key="xml" value="9" />
+          <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="CSS" value="39" />
-          <entry key="Database Element" value="5" />
-          <entry key="FTL" value="31" />
+          <entry key="Database Element" value="6" />
+          <entry key="FTL" value="32" />
           <entry key="Font" value="2" />
           <entry key="HTML" value="6" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="42" />
+          <entry key="JAVA" value="48" />
           <entry key="JSP" value="1" />
           <entry key="JavaScript" value="38" />
           <entry key="SVG" value="2" />
           <entry key="Scratch" value="3" />
-          <entry key="XML" value="9" />
+          <entry key="XML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="435" />
-          <entry key="ftl" value="2991" />
+          <entry key="dummy" value="1" />
+          <entry key="ftl" value="3103" />
           <entry key="html" value="5" />
-          <entry key="java" value="6017" />
+          <entry key="java" value="7028" />
           <entry key="js" value="1818" />
           <entry key="sql" value="1022" />
           <entry key="txt" value="384" />
-          <entry key="xml" value="307" />
+          <entry key="xml" value="340" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="435" />
-          <entry key="FTL" value="2991" />
+          <entry key="FTL" value="3103" />
           <entry key="HTML" value="14" />
-          <entry key="JAVA" value="6017" />
+          <entry key="JAVA" value="7028" />
           <entry key="JavaScript" value="1809" />
-          <entry key="PLAIN_TEXT" value="384" />
+          <entry key="PLAIN_TEXT" value="385" />
           <entry key="Scratch" value="1022" />
-          <entry key="XML" value="307" />
+          <entry key="XML" value="340" />
         </counts>
       </usages-collector>
     </session>
@@ -148,40 +142,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7d884eb4-d858-4e2e-acd0-ce92e869079a/console_1.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/assets/js/myapp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="69" column="62" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="62" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/PageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="86" column="45" lean-forward="true" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
+            <state relative-caret-position="373">
+              <caret line="104" column="27" lean-forward="true" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,45 +154,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/single_product.ftl">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="69" lean-forward="true" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+            <state relative-caret-position="356">
+              <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap.min.css">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exception/GlobalDefaultExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="445" column="1" selection-start-line="445" selection-start-column="1" selection-end-line="445" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dto/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="220">
+              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1171#1172#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exception/ProductNotFoundException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="32" column="72" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="72" />
+            <state relative-caret-position="34">
+              <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+              <folding>
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -240,16 +210,13 @@
       <list>
         <option value="JavaScript File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>shop nam</find>
-      <find>naviga</find>
-      <find>botto</find>
       <find>foo</find>
       <find>foote</find>
       <find>the</find>
@@ -277,6 +244,9 @@
       <find>hea</find>
       <find>bread</find>
       <find>hr</find>
+      <find>commo</find>
+      <find>ANDREW MASSAGE</find>
+      <find>MASSAGE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -304,15 +274,11 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/views/shared/sidebar.ftl" />
         <option value="$PROJECT_DIR$/src/test/java/CategoryTestCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/SpringConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/CategoryDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/CategoryDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/dto/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/ProductDAO.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7d884eb4-d858-4e2e-acd0-ce92e869079a/console_1.sql" />
         <option value="$PROJECT_DIR$/src/main/java/dao/ProductDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/config/HibernateConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/JsonDataController.java" />
         <option value="$PROJECT_DIR$/src/main/java/dto/Product.java" />
         <option value="$PROJECT_DIR$/web/assets/js/jquery.dataTables.js" />
@@ -321,14 +287,22 @@
         <option value="$PROJECT_DIR$/web/assets/js/jquery.min.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/shared/footer.ftl" />
         <option value="$PROJECT_DIR$/web/index.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/web/assets/css/myapp.css" />
         <option value="$PROJECT_DIR$/web/assets/js/myapp.js" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/PageController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/single_product.html" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl" />
         <option value="$PROJECT_DIR$/web/assets/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/single_product.ftl" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/error.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/CategoryDAOImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/config/HibernateConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exception/ProductNotFounfException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exception/ProductNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exception/GlobalDefaultExceptionHandler.java" />
       </list>
     </option>
   </component>
@@ -346,7 +320,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="819" />
+    <option name="width" value="820" />
     <option name="height" value="850" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -355,8 +329,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -388,7 +362,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
@@ -407,6 +381,12 @@
               <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -415,6 +395,10 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -427,7 +411,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542901256010" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542980084829" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -438,14 +422,14 @@
     <property name="settings.editor.selected.configurable" value="SQL Dialects" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SpringProjects\OnlineShop\web\assets\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SpringProjects\OnlineShop\web\WEB-INF\views" />
       <recent name="E:\SpringProjects\OnlineShop\src\main\resources\images" />
       <recent name="E:\SpringProjects\OnlineShop\web\assets\images" />
       <recent name="E:\SpringProjects\OnlineShop\web\assets\css" />
-      <recent name="E:\SpringProjects\OnlineShop\web\assets\js" />
-      <recent name="E:\SpringProjects\OnlineShop\web\assets" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\SpringProjects\OnlineShop\web\assets\js" />
     </key>
   </component>
@@ -565,7 +549,8 @@
       <workItem from="1542626872930" duration="28976000" />
       <workItem from="1542700469556" duration="32591000" />
       <workItem from="1542787082376" duration="30354000" />
-      <workItem from="1542876670495" duration="24232000" />
+      <workItem from="1542876670495" duration="26861000" />
+      <workItem from="1542964586281" duration="12350000" />
     </task>
     <task id="LOCAL-00001" summary="added config classes, controller, successful launch">
       <created>1542365319688</created>
@@ -631,13 +616,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140910000" />
+    <option name="totallyTimeSpent" value="155889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49753696" visible="true" weight="0.21006711" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49753696" visible="true" weight="0.21275167" />
       <window_info id="Structure" order="1" sideWeight="0.50246304" side_tool="true" weight="0.20738254" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -647,14 +632,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.26203966" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.3512748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.44759208" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.7889518" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
@@ -732,19 +717,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="finish the web interface, fixed footer position, changed web theme to mint" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/assets/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="2376" selection-start-line="2376" selection-end-line="2376" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap-theme.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/test.ftl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -807,9 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,9 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,9 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,44 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/CategoryDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="92" column="24" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/HibernateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/js/jquery.dataTables.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,13 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="2601" column="3" lean-forward="true" selection-start-line="2601" selection-start-column="3" selection-end-line="2601" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7d884eb4-d858-4e2e-acd0-ce92e869079a/database/delivery/schema/dbo/table/product">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -957,9 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -970,19 +889,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/images/PRODDESSERTS123.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/images/PRODDESSERTS123.jpg" />
     <entry file="file://$PROJECT_DIR$/web/assets/css/myapp.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -990,64 +897,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1019">
           <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7d884eb4-d858-4e2e-acd0-ce92e869079a/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="86" column="45" lean-forward="true" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/myapp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="69" column="62" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="32" column="72" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -1058,9 +911,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7d884eb4-d858-4e2e-acd0-ce92e869079a/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/myapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="62" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7565">
+          <caret line="445" column="1" selection-start-line="445" selection-start-column="1" selection-end-line="445" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dto/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="425">
           <caret line="31" column="28" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1070,20 +951,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://7d884eb4-d858-4e2e-acd0-ce92e869079a/database/delivery/schema/dbo/table/product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/single_product.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="26" column="69" lean-forward="true" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/CategoryDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.1.RELEASE/spring-webmvc-5.1.1.RELEASE.jar!/org/springframework/web/servlet/NoHandlerFoundException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/HibernateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/error.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="445" column="1" selection-start-line="445" selection-start-column="1" selection-end-line="445" selection-end-column="1" />
+        <state relative-caret-position="561">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" column="72" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exception/ProductNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="104" column="27" lean-forward="true" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exception/GlobalDefaultExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,12 +1119,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>OnlineShop</last-edited>
+          <last-edited>Web|OnlineShop</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

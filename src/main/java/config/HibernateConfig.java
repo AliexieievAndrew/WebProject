@@ -12,12 +12,16 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import service.CategoryService;
+import service.CategoryServiceImpl;
+import service.ProductService;
+import service.ProductServiceImpl;
 
 import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-@ComponentScan(basePackages = {"dto","dao"}) //
+@ComponentScan(basePackages = {"dto","dao"})
 @EnableTransactionManagement
 public class HibernateConfig {
     private static final String DATABASE_URL = "jdbc:sqlserver://localhost:1433;database=Delivery";
@@ -76,5 +80,14 @@ public class HibernateConfig {
     public HibernateTransactionManager getTransactionManager (SessionFactory sessionFactory) {
         HibernateTransactionManager transactionManager = new HibernateTransactionManager(sessionFactory);
         return transactionManager;
+    }
+    @Bean
+    public CategoryService getCategoryService() {
+        return new CategoryServiceImpl();
+    }
+
+    @Bean
+    public ProductService getProductService(){
+        return new ProductServiceImpl();
     }
 }

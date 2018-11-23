@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import service.CategoryService;
+import service.ProductService;
 
 
 @Controller
@@ -19,11 +21,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class PageController {
 
     @Autowired
-    CategoryDAO categoryDAO;
+    CategoryService categoryService;
 
-    // временно
     @Autowired
-    ProductDAO productDAO;
+    ProductService productService;
 
     @GetMapping(value = {"/", "/home","/index"})
     public String index(Model model) {
@@ -31,7 +32,7 @@ public class PageController {
         model.addAttribute("userClick", "home");
 
         // passing the list of categories
-        model.addAttribute("categories", categoryDAO.list());
+        model.addAttribute("categories", categoryService.list());
 
         return "index";
     }
@@ -59,7 +60,7 @@ public class PageController {
     // Get all products and based on category
     @GetMapping(value = "/show/all/products")
     public String getAllProducts(Model model){
-        model.addAttribute("categories", categoryDAO.list());
+        model.addAttribute("categories", categoryService.list());
         model.addAttribute("title", "All Products");
         model.addAttribute("userClick","allproducts");
         return "index";
@@ -69,12 +70,12 @@ public class PageController {
     @GetMapping(value = "/show/category/{id}/products")
     public String getCategoryProducts(@PathVariable("id") int id, Model model) {
         Category category = null;
-        category = categoryDAO.get(id);
+        category = categoryService.get(id);
 
         model.addAttribute("title", category.getName());
 
         // passing the list of categories
-        model.addAttribute("categories", categoryDAO.list());
+        model.addAttribute("categories", categoryService.list());
 
         // passing th category
         model.addAttribute("category", category);
@@ -87,7 +88,7 @@ public class PageController {
     // View a single product
     @GetMapping(value = "/show/{id}/product")
     public String getProductById(@PathVariable("id") int id, Model model) throws ProductNotFoundException {
-        Product product = productDAO.get(id);
+        Product product = productService.get(id);
 
         if(product == null)
             throw new ProductNotFoundException();
@@ -102,7 +103,7 @@ public class PageController {
 
     @GetMapping ("/test")
     public String test(@RequestParam (value = "greeting", required = false) String greeting, Model model) {
-        Product product = productDAO.get(1);
+        Product product = productService.get(1);
         System.out.println("Product name = " + product.getName());
 
         if (greeting == null) {

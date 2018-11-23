@@ -29,6 +29,9 @@
                 <li id = "contact">
                     <a class="nav-link" href="${context}/contact">Contact</a>
                 </li>
+                <li id = "manageproducts">
+                    <a class="nav-link" href="${context}/manage/products">Manage Products</a>
+                </li>
             </ul>
         </div>
     </div>

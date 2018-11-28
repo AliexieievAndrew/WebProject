@@ -25,6 +25,11 @@ public class WebConfig extends WebMvcConfigurerAdapter {
     @Bean
     public ViewResolver getViewResolver() {
         FreeMarkerViewResolver resolver = new FreeMarkerViewResolver();
+        // testing
+        resolver.setExposeSpringMacroHelpers(true);
+        resolver.setExposeRequestAttributes(true);
+
+        //main
         resolver.setOrder(1);
         resolver.setSuffix(".ftl");
         resolver.setPrefix("");

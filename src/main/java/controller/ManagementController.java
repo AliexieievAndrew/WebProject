@@ -5,10 +5,7 @@ import dto.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 import service.CategoryService;
 import service.ProductService;
 
@@ -28,9 +25,12 @@ public class ManagementController {
     ProductService productService;
 
     @GetMapping("/products")
-    public String showManageProduct(Model model) {
+    public String showManageProduct(@RequestParam(name = "operation",required = false) String operation, Model model) {
         model.addAttribute("title", "Manage Products");
         model.addAttribute("userClick", "manage_products_freemarker");
+
+
+
         Product nProduct = new Product();
 
         nProduct.setSupplierId(1);
@@ -38,6 +38,13 @@ public class ManagementController {
 
         // set few of the fields
         model.addAttribute("product",nProduct);
+
+        if (operation!= null) {
+            if (operation.equals("product")){
+                model.addAttribute("message", "element successfully added");
+            }
+        }
+
         return "index";
     }
 

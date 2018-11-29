@@ -5,6 +5,19 @@
 
 <div class="container">
     <div class="row">
+        <#--showing alert-->
+            <#--configured in myapp.js-->
+
+        <#if message??>
+            <div class = "col-lg-12">
+                <div class="alert alert-success alert-dismissible">
+                    <#--data-dismiss = "alert"-->
+                    <button type="button" class="close"></button>
+                    ${message}
+                </div>
+            </div>
+        </#if>
+
         <div class ="col-md-offset-2 col-md-8">
             <div class ="panel panel-primary">
                 <div class = "panel-heading">
@@ -14,6 +27,7 @@
                 <div class="panel-body">
 
                     <#--Form elements-->
+                    <#--@param modelAttribute will transfer in method handleProductSubmission-->
                     <form class = "form-horizontal" modelAttribute ="product" action="${context}/manage/products" method = "post">
 
                         <#--line name-->
@@ -47,7 +61,7 @@
                         </div>
 
                         <#--line Category choice-->
-                        <div class="form-group">
+                        <div cl ass="form-group">
                             <label class = "control-label col-md-4" for="categoryId">
                                 Select category
                             </label>
@@ -63,7 +77,6 @@
                             </div>
                         </div>
 
-                    <#--btn submit-->
                         <#--btn submit-->
                             <div class="form-group">
                                 <div class="col-lg-offset-4 col-md-8">

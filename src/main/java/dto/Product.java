@@ -3,6 +3,7 @@
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.Type;
 import org.hibernate.validator.constraints.NotBlank;
+import org.springframework.web.multipart.MultipartFile;
 
 
 import javax.persistence.*;
@@ -12,6 +13,20 @@ import java.util.UUID;
 @Entity
 @Table(name="product")
 public class Product {
+
+    // for uploading file
+    // will be cleared at the end of request processing
+    @Transient // - temporary
+    private MultipartFile file;
+
+    // returning abstraction of the file
+    public MultipartFile getFile() {
+        return file;
+    }
+
+    public void setFile(MultipartFile file) {
+        this.file = file;
+    }
 
     public Product() {
         this.code = "PROD" + UUID.randomUUID().toString().substring(26).toUpperCase();

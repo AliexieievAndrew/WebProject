@@ -3,6 +3,9 @@ package config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.multipart.MultipartResolver;
+import org.springframework.web.multipart.commons.CommonsMultipartResolver;
+import org.springframework.web.multipart.support.StandardServletMultipartResolver;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -41,5 +44,13 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         FreeMarkerConfigurer freeMarkerConfigurer = new FreeMarkerConfigurer();
         freeMarkerConfigurer.setTemplateLoaderPaths("/", "/WEB-INF/views/"); //<artifactId>spring-context-support</artifactId>
         return freeMarkerConfigurer;
+    }
+
+    // for upload file (only name multipartResolver) !!!!!!!!!!
+    @Bean
+    MultipartResolver multipartResolver() {
+        CommonsMultipartResolver commonsMultipartResolver = new CommonsMultipartResolver();
+        commonsMultipartResolver.setMaxUploadSizePerFile(2097152L);
+        return commonsMultipartResolver;
     }
 }

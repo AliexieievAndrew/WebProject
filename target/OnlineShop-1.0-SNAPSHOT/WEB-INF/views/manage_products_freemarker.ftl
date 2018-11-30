@@ -28,7 +28,12 @@
 
                     <#--Form elements-->
                     <#--@param modelAttribute will transfering in the method handleProductSubmission-->
-                    <form class = "form-horizontal" modelAttribute ="product" action="${context}/manage/products" method = "post">
+                    <form class = "form-horizontal"
+                          modelAttribute ="product"
+                          action="${context}/manage/products"
+                          method = "post"
+                          <#--for uploading file-->
+                          enctype="multipart/form-data">
 
                         <#--line name-->
                         <div class="form-group">
@@ -62,10 +67,23 @@
                             </label>
                             <div class="col-md-8">
                             <#--instead "required", the validation is used-->
-                            <@spring.formInput "product.unitPrice", "class = 'form-control ' step='0.01'","number"/>
-                            <@spring.showErrors "<br/>",""/>
+                                <@spring.formInput "product.unitPrice", "class = 'form-control ' step='0.01'","number"/>
+                                <@spring.showErrors "<br/>",""/>
                             </div>
                         </div>
+
+
+                        <#--line upload image-->
+                            <div class="form-group">
+                                <label class = "control-label col-md-4" for="file">
+                                    Upload photo
+                                </label>
+                                <div class="col-md-8">
+                                <#--instead "required", the validation is used-->
+                                    <@spring.formInput "product.file", "class = 'form-control '","file"/>
+                                </div>
+                            </div>
+
 
                         <#--line Category choice-->
                         <div cl ass="form-group">

@@ -23,6 +23,9 @@ public class WebAppInitializer implements WebApplicationInitializer {
         // for Custom Error Page need to throw exception
         dispatcherServlet.setThrowExceptionIfNoHandlerFound(true);
 
+        //testing
+//        dispatcherServlet.getMultipartResolver();
+
 
         ServletRegistration.Dynamic dispatcher = servletContext.addServlet("dispatcher", dispatcherServlet);
         dispatcher.setLoadOnStartup(1);

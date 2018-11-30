@@ -5,14 +5,14 @@
 
 <div class="container">
     <div class="row">
+
         <#--showing alert-->
             <#--configured in myapp.js-->
-
         <#if message??>
             <div class = "col-lg-12">
                 <div class="alert alert-success alert-dismissible">
                     <#--data-dismiss = "alert"-->
-                    <button type="button" class="close" ></button>
+                    <button type="button" class="close"></button>
                     ${message}
                 </div>
             </div>
@@ -27,7 +27,7 @@
                 <div class="panel-body">
 
                     <#--Form elements-->
-                    <#--@param modelAttribute will transfer in method handleProductSubmission-->
+                    <#--@param modelAttribute will transfering in the method handleProductSubmission-->
                     <form class = "form-horizontal" modelAttribute ="product" action="${context}/manage/products" method = "post">
 
                         <#--line name-->
@@ -36,7 +36,10 @@
                                 Enter Product Name
                             </label>
                             <div class="col-md-8">
-                                <@spring.formInput "product.name", "class = 'form-control' required","text"/>
+                            <#--instead "required", the validation is used-->
+                                <@spring.formInput "product.name", "class = 'form-control'","text"/>
+                            <@spring.showErrors "<br/>",""/>
+                            <#--<@spring.showErrors "product.name","cssClass = 'help-block' element = 'em'"/>-->
                             </div>
                         </div>
 
@@ -46,7 +49,9 @@
                                 Enter product description
                             </label>
                             <div class="col-md-8">
-                            <@spring.formTextarea "product.description","class = 'form-control' required"/>
+                                <#--instead "required", the validation is used-->
+                            <@spring.formTextarea "product.description","class = 'form-control'"/>
+                            <@spring.showErrors "<br/>",""/>
                             </div>
                         </div>
 
@@ -56,7 +61,9 @@
                                 Enter unit price in UAH
                             </label>
                             <div class="col-md-8">
-                            <@spring.formInput "product.unitPrice", "class = 'form-control ' step='0.01' required","number"/>
+                            <#--instead "required", the validation is used-->
+                            <@spring.formInput "product.unitPrice", "class = 'form-control ' step='0.01'","number"/>
+                            <@spring.showErrors "<br/>",""/>
                             </div>
                         </div>
 

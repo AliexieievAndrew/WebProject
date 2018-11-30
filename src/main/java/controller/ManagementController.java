@@ -5,11 +5,13 @@ import dto.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import service.CategoryService;
 import service.ProductService;
 
 
+import javax.validation.Valid;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -28,8 +30,6 @@ public class ManagementController {
     public String showManageProduct(@RequestParam(name = "operation",required = false) String operation, Model model) {
         model.addAttribute("title", "Manage Products");
         model.addAttribute("userClick", "manage_products_freemarker");
-
-
 
         Product nProduct = new Product();
 
@@ -57,8 +57,18 @@ public class ManagementController {
     }
 
     @PostMapping("/products")
-    public String handleProductSubmission(@ModelAttribute("product") Product mProduct){
-        System.out.println(mProduct.toString());
+    // BindingResult must be before Model
+    public String handleProductSubmission(@Valid @ModelAttribute("product") Product mProduct, BindingResult result, Model model){
+
+        //check if there are any errors
+        if(result.hasErrors()) {
+            System.out.println("has errors");
+
+            model.addAttribute("title", "Manage Products");
+            model.addAttribute("userClick", "manage_products_freemarker");
+            return "index";
+        }
+        System.out.println("Product added successfully: " + mProduct.toString());
 //        productService.add(mProduct);
         return "redirect:/manage/products?operation=product";
     }

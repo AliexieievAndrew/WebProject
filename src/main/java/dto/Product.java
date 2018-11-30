@@ -2,8 +2,11 @@
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.Type;
+import org.hibernate.validator.constraints.NotBlank;
+
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
 import java.util.UUID;
 
 @Entity
@@ -23,12 +26,15 @@ public class Product {
     private String code;
 
     @Column(name = "name")
+    @NotBlank(message = "please enter the Product name")
     private String name;
 
     @Column(name = "description")
+    @NotBlank(message = "please enter the description for Product ")
     private String description;
 
     @Column(name = "unit_price")
+    @Min(value = 1, message = "value can not be less than 1")
     private double unitPrice;
 
     @Column(name = "is_active")

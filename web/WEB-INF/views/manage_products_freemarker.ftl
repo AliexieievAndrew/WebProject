@@ -76,11 +76,11 @@
                         <#--line upload image-->
                             <div class="form-group">
                                 <label class = "control-label col-md-4" for="file">
-                                    Upload photo
+                                    Upload image
                                 </label>
                                 <div class="col-md-8">
-                                <#--instead "required", the validation is used-->
-                                    <@spring.formInput "product.file", "class = 'form-control '","file"/>
+                                <#--not validating-->
+                                    <@spring.formInput "product.file", "class = 'form-control' accept='image/jpeg, image/jpeg, image/png'","file"/>
                                 </div>
                             </div>
 

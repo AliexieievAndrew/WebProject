@@ -20,6 +20,7 @@ public class Product {
     private MultipartFile file;
 
     // returning abstraction of the file
+    @JsonIgnore
     public MultipartFile getFile() {
         return file;
     }
@@ -54,7 +55,6 @@ public class Product {
 
     @Column(name = "is_active")
     @Type(type = "org.hibernate.type.NumericBooleanType")
-    @JsonIgnore // will be ignore in REST
     private boolean active = true;
 
     @Column(name = "category_id")

@@ -52,6 +52,7 @@
             <#--Data Tables-->
             <div class="row">
                 <div class="col-lg-12">
+                    <#--id for DataTable plugin-->
                     <table id = "productListTable" class="table table-striped table-bordered">
                         <thead>
                             <tr>

@@ -117,4 +117,109 @@ $(function () {
             $alert.fadeOut('slow');
         },3000)
     }
+
+    /*
+     * DataTable for admin
+     */
+
+    var $adminProductsTable = $('#adminProductsTable');
+        var jsonUrl = window.contextRoot + "/json/data/admin/all/products";
+
+        $adminProductsTable.DataTable ({
+            lengthMenu: [[3,5,10,-1],["3 products","5 products","10 products","all products"]],
+            pageLength: 5, // default
+            ajax: {
+                url: jsonUrl,
+                dataSrc: ''
+            },
+            columns: [
+                // column id
+                {
+                    data: 'id'
+                },
+                //column image (using code)
+                {
+                    data: 'code',
+                    bSortable: false,
+                    mRender: function (data,type,row) {
+                        return '<img ' +
+                            //loading static resources
+                            'src ="' + window.contextRoot +'/resources/images/'+ data +'.jpg" ' +
+                            // to get little (custom) size
+                            'style="width:50px;height:50px;"/>'
+                    }
+                },
+                //column name
+                {
+                    data: 'name'
+                },
+                // column description
+                {
+                    data: 'description',
+                    bSortable: false
+                },
+                // column price
+                {
+                    data: 'unitPrice',
+                    mRender: function (data,type,row) {
+                        return data + ' UAH';
+                    }
+                },
+                // column active
+                {
+                    data: 'active',
+                    bSortable: false,
+                    mRender: function (data, type, row) {
+                        var str = '';
+
+                        if (data){
+                            // testing
+                            str += '<label class="checkbox">';
+                            str += '<input type="checkbox" checked = "checked" value="' + row.id + '"/>';
+                            str += '<div class = "checkbox__text"/>';
+                            str += '</label>';
+
+
+                            // str += '<input type="checkbox" name = "'+ row.id +'" class="checkbox" id="'+ row.id +'" checked = "checked" value="'+ row.id +'"/>';
+                        } else {
+
+                            // testing
+                            str += '<label class="checkbox">';
+                            str += '<input type="checkbox" value="' + row.id + '"/>';
+                            str += '<div class = "checkbox__text"/>';
+                            str += '</label>';
+
+
+                            // str += '<input type="checkbox" name = "'+ row.id +'" class="checkbox" id="'+ row.id +'" checked = "" value="'+ row.id +'"/>';
+                        }
+                        return str;
+                    }
+                },
+                // column edit
+                {
+                    data: 'id',
+                    bSortable: false,
+                    mRender: function (data, type, row) {
+                        var str = '';
+                        str += '<a href="'+window.contextRoot+'/manage/'+ data +'/product" class="btn btn-warning">'
+                        str += '<span class="fas fa-edit"/>\n';
+                        str += '</a>';
+                        return str;
+                    }
+                }
+            ],
+            // initComplete must be used !!!
+            // activation and deactivation product
+            initComplete: function() {
+                var api = this.api();
+                console.log('test string in console');
+                api.$('.checkbox input').on('change',function(){
+                    var checkbox = $(this);
+                    var value = checkbox.prop('value');
+
+                    var activationUrl = window.contextRoot + '/manage/product/'+ value + '/activation';
+                    $.post(activationUrl);
+                });
+            }
+        });
 });

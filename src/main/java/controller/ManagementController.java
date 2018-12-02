@@ -63,10 +63,9 @@ public class ManagementController {
     // @param HttpServletRequest needs to upload file
     public String handleProductSubmission(@Valid @ModelAttribute("product") Product mProduct, BindingResult result,
                                           Model model, HttpServletRequest request){
-        System.out.println("get all errors: " + result.getAllErrors());
+
         //check if there are any errors
         if(result.hasErrors()) {
-            System.out.println("has errors");
 
             model.addAttribute("title", "Manage Products");
             model.addAttribute("userClick", "manage_products_freemarker");
@@ -85,5 +84,20 @@ public class ManagementController {
             FileUploadUtility.uploadFile(request, mProduct.getFile(), mProduct.getCode());
         }
         return "redirect:/manage/products?operation=product";
+    }
+
+
+    // activating and deactivating product
+    @PostMapping("/product/{id}/activation")
+    @ResponseBody
+    public String handleProductActivation(@PathVariable("id") int id) {
+        Product product = productService.get(id);
+        boolean isActive = product.isActive();
+
+        System.out.println("ativation: " +product.getName() + " is " + isActive);
+        product.setActive(!product.isActive());
+        productService.update(product);
+
+        return "index";
     }
 }

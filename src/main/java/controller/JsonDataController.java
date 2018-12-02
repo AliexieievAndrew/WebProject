@@ -16,10 +16,18 @@ public class JsonDataController {
     @Autowired
     ProductService productService;
 
+
     @GetMapping("/all/products")
     @ResponseBody // help to complete response to JSON (when added dependency)
     public List<Product> getAllProducts() {
         return productService.listActiveProducts();
+    }
+
+    // using only for admin !!!
+    @GetMapping("/admin/all/products")
+    @ResponseBody
+    public List<Product> getAllProductsForAdmin() {
+        return productService.list();
     }
 
     @GetMapping("/category/{id}/products")

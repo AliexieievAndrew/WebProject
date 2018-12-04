@@ -5,9 +5,11 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+/*need to create overwrite function !!!*/
 public class FileUploadUtility {
 
     //using for project upload
@@ -42,6 +44,7 @@ public class FileUploadUtility {
 
             // can't using twice (???)
 //            file.transferTo(new File(ABSOLUTE_PATH + code + ".jpg"));
+
 
         } catch (IOException e) {
             e.printStackTrace();

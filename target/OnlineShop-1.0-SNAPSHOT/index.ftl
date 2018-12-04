@@ -26,7 +26,7 @@
 
     <title>Delivery food homepage - ${title}</title>
 
-
+    <#--window is a JS global object-->
     <script>
         <#--for lights buttons-->
         window.menu = '${title}';

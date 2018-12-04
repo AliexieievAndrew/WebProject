@@ -21,7 +21,7 @@
                     <#--category if exist-->
                 <#if  category ??>
 
-                    <#--to get product by id-->
+                    <#--to get product by id in myapp.js-->
                     <script>
                         window.categoryId = '${category.id}';
                     </script>

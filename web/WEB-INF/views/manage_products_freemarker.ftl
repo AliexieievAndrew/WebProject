@@ -42,7 +42,7 @@
                             </label>
                             <div class="col-md-8">
                             <#--instead "required", the validation is used-->
-                                <@spring.formInput "product.name", "class = 'form-control'","text"/>
+                            <@spring.formInput "product.name", "class = 'form-control'","text"/>
                             <@spring.showErrors "<br/>",""/>
                             <#--<@spring.showErrors "product.name","cssClass = 'help-block' element = 'em'"/>-->
                             </div>
@@ -86,19 +86,27 @@
 
 
                         <#--line Category choice-->
-                        <div cl ass="form-group">
+                        <div class="form-group">
                             <label class = "control-label col-md-4" for="categoryId">
                                 Select category
                             </label>
                             <div class="col-md-8">
 
-                                <select class="form-control" id="categoryId" name="categoryId">
-                                    <#list categories as key, value>
-                                        <option value="${value}">${key}</option>
-                                    </#list>
-                                </select>
-                                <#--dont know why not working-->
-                                <#--<@spring.formSingleSelect "product.categoryId", "categories","class = 'form-control"/>-->
+                                <#--This option does not work correctly. (not Freemarker example)-->
+                                <#--<select class="form-control" id="categoryId" name="categoryId" >-->
+                                    <#--<#list categories as key, value>-->
+                                        <#--<option value="${value}">${key}</option>-->
+                                    <#--</#list>-->
+                                <#--</select>-->
+
+                                <@spring.bind "categories"/>
+                                <@spring.formSingleSelect "product.categoryId", categories, "class = 'form-control'"/>
+
+                                <#--Button for creating a new Category-->
+                                <div class = "text-right">
+                                    <br/>
+                                    <a href="${context}/manage/category" class="btn btn-warning btn-sm">New Category</a>
+                                </div>
                             </div>
                         </div>
 
@@ -157,6 +165,5 @@
                 </table>
             </div>
         </div>
-
     </div>
 </div>

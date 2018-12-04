@@ -1,6 +1,7 @@
 package dto;
 
 import org.hibernate.annotations.Type;
+import org.hibernate.validator.constraints.NotBlank;
 
 import javax.persistence.*;
 
@@ -14,6 +15,7 @@ public class Category {
     private int id;
 
     @Column(name = "name")
+    @NotBlank(message = "please enter the Category name")
     private String name;
 
     @Column(name = "description")

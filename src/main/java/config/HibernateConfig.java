@@ -4,6 +4,7 @@ import dao.CategoryDAO;
 import dao.CategoryDAOImpl;
 import dao.ProductDAO;
 import dao.ProductDAOImpl;
+import dto.Category;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.hibernate.SessionFactory;
 import org.springframework.context.annotation.Bean;

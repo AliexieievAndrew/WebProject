@@ -60,9 +60,6 @@ public class Product {
     @Column(name = "category_id")
     private int categoryId;
 
-    @Column(name = "supplier_id")
-    private int supplierId;
-
     @Column(name = "purchases")
     private int purchases;
 
@@ -122,14 +119,6 @@ public class Product {
         this.categoryId = categoryId;
     }
 
-    public int getSupplierId() {
-        return supplierId;
-    }
-
-    public void setSupplierId(int supplierId) {
-        this.supplierId = supplierId;
-    }
-
     public int getPurchases() {
         return purchases;
     }
@@ -148,7 +137,6 @@ public class Product {
                 ", unitPrice=" + unitPrice +
                 ", active=" + active +
                 ", categoryId=" + categoryId +
-                ", supplierId=" + supplierId +
                 ", purchases=" + purchases +
                 '}';
     }

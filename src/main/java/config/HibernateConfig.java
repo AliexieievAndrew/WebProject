@@ -1,10 +1,6 @@
 package config;
 
-import dao.CategoryDAO;
-import dao.CategoryDAOImpl;
-import dao.ProductDAO;
-import dao.ProductDAOImpl;
-import dto.Category;
+import dao.*;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.hibernate.SessionFactory;
 import org.springframework.context.annotation.Bean;
@@ -13,10 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-import service.CategoryService;
-import service.CategoryServiceImpl;
-import service.ProductService;
-import service.ProductServiceImpl;
+import service.*;
 
 import javax.sql.DataSource;
 import java.util.Properties;
@@ -40,6 +33,11 @@ public class HibernateConfig {
     @Bean
     public ProductDAO getProductDAO(){
         return new ProductDAOImpl();
+    }
+
+    @Bean
+    public UserDAO getUserDAO() {
+        return new UserDAOImpl();
     }
 
     // dbcp lib(maven)
@@ -73,6 +71,10 @@ public class HibernateConfig {
         properties.put("hibernate.show_sql", true);
         properties.put("hibernate.format_sql", true);
 
+        // testing
+//        https://stackoverflow.com/questions/438146/hibernate-hbm2ddl-auto-possible-values-and-what-they-do
+//        properties.put("hibernate.hbm2ddl.auto","create");
+
         return properties;
     }
 
@@ -91,4 +93,11 @@ public class HibernateConfig {
     public ProductService getProductService(){
         return new ProductServiceImpl();
     }
+
+    @Bean
+    public UserService getUserService() {
+        return new UserServiceImpl();
+    }
+
+
 }

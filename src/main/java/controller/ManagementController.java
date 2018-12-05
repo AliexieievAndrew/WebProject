@@ -34,7 +34,7 @@ public class ManagementController {
 
         Product nProduct = new Product();
 
-        nProduct.setSupplierId(1);
+//        nProduct.setSupplierId(1);
 //        nProduct.setActive(true);
 
         // set few of the fields
@@ -127,7 +127,7 @@ public class ManagementController {
         model.addAttribute("userClick", "manage_products_freemarker");
 
         Product nProduct = productService.get(id);
-        nProduct.setSupplierId(1);
+//        nProduct.setSupplierId(1);
         model.addAttribute("product",nProduct);
 
         return "index";

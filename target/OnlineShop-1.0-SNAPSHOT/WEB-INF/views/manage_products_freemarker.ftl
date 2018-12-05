@@ -119,7 +119,6 @@
                                     <@spring.formHiddenInput "product.id",""/>
                                     <@spring.formHiddenInput "product.code",""/>
                                     <@spring.formHiddenInput "product.active",""/>
-                                    <@spring.formHiddenInput "product.supplierId",""/>
                                     <@spring.formHiddenInput "product.purchases",""/>
                                 </div>
                             </div>

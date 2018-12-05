@@ -2,8 +2,7 @@ package controller;
 
 import dao.CategoryDAO;
 import dao.ProductDAO;
-import dto.Category;
-import dto.Product;
+import dto.*;
 import exception.ProductNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import service.CategoryService;
 import service.ProductService;
+import service.UserService;
 
 
 @Controller
@@ -25,6 +25,9 @@ public class PageController {
 
     @Autowired
     ProductService productService;
+
+    @Autowired
+    UserService userService;
 
     @GetMapping(value = {"/", "/home","/index"})
     public String index(Model model) {
@@ -101,14 +104,51 @@ public class PageController {
     }
 
 
+
+
     @GetMapping ("/test")
     public String test(@RequestParam (value = "greeting", required = false) String greeting, Model model) {
-        Product product = productService.get(1);
-        System.out.println("Product name = " + product.getName());
+//        User user = new User();
+//
+//        user.setFirstName("Gosha");
+//        user.setLastName("Pupkin");
+//        user.setRole(2);
+//        user.setPassword("12345");
+//        user.setEmail("Gosha@ukr.net");
+//        user.setContactNumber("333222111");
+
+
+//        Address address = new Address();
+//        address.setAddressLineOne("some street");
+//        address.setCity("Kyiv");
+//        address.setCountry("Ukraine");
+//        // don't know how it working
+//        address.setUserId(user.getId());
+//        userService.addAddress(address);
+
+//        Cart cart = new Cart();
+//        cart.setUser(user);
+
+//        user.setCart(cart);
+
+//        userService.addUser(user);
+        User user = userService.getByEmail("Gosha@ukr.net");
+        Cart cart = user.getCart();
+
+        System.out.println("user:" + user);
+        System.out.println("cart:" + cart);
+
+        cart.setTotal(555.55);
+        cart.setCartLines(2);
+
+        userService.updateCart(cart);
+
 
         if (greeting == null) {
             greeting = "hello there";
         }
+
+
         model.addAttribute("greeting", greeting);
         return "test";
     }

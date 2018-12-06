@@ -50,6 +50,8 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.1.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.1.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.1.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.webflow:spring-webflow:2.5.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.webflow:spring-binding:2.5.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.28" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:jstl:1.2" level="project" />

@@ -15,6 +15,8 @@ import service.CategoryService;
 import service.ProductService;
 import service.UserService;
 
+import java.util.List;
+
 
 @Controller
 @RequestMapping("/")
@@ -105,43 +107,65 @@ public class PageController {
 
 
 
-
-    @GetMapping ("/test")
+//    only for testing
+//    @GetMapping ("/test")
     public String test(@RequestParam (value = "greeting", required = false) String greeting, Model model) {
-//        User user = new User();
-//
-//        user.setFirstName("Gosha");
-//        user.setLastName("Pupkin");
-//        user.setRole(2);
-//        user.setPassword("12345");
-//        user.setEmail("Gosha@ukr.net");
-//        user.setContactNumber("333222111");
+
+        // 1. Create User
+        User user = new User();
+
+        user.setFirstName("andrew");
+        user.setLastName("alexeev");
+        user.setRole(2);
+        user.setPassword("12345");
+        user.setEmail("AndrewBEST@ukr.net");
+        user.setContactNumber("555222111");
 
 
-//        Address address = new Address();
-//        address.setAddressLineOne("some street");
-//        address.setCity("Kyiv");
-//        address.setCountry("Ukraine");
-//        // don't know how it working
-//        address.setUserId(user.getId());
+
+
+        // 1.1 create Cart
+        Cart cart = new Cart();
+
+        // 1.2 set User and set Cart
+        cart.setUser(user);
+        user.setCart(cart);
+
+        // 1.3 add User to DB
+        userService.addUser(user);
+
+        // 3. create Address
+        Address address = new Address();
+        address.setAddressLine("some delivery street");
+        address.setAddressDescription("some delivery description");
+        address.setCity("Kyiv");
+        address.setCountry("Ukraine");
+
+        // 3.1 set User
+        address.setUser(user);
+
+
+        // 2.2 add address to DB
 //        userService.addAddress(address);
 
-//        Cart cart = new Cart();
-//        cart.setUser(user);
 
-//        user.setCart(cart);
+        // get address List by user
+//        List<Address> addressList= userService.getDeliveryAddresses(user);
 
-//        userService.addUser(user);
-        User user = userService.getByEmail("Gosha@ukr.net");
-        Cart cart = user.getCart();
+//        addressList.stream().forEach(e -> System.out.println(e));
 
-        System.out.println("user:" + user);
-        System.out.println("cart:" + cart);
+        // 4 Edit Cart example
 
-        cart.setTotal(555.55);
-        cart.setCartLines(2);
-
-        userService.updateCart(cart);
+//        User user = userService.getByEmail("Gosha@ukr.net");
+//        Cart cart = user.getCart();
+//
+//        System.out.println("user:" + user);
+//        System.out.println("cart:" + cart);
+//
+//        cart.setTotal(555.55);
+//        cart.setCartLines(2);
+//
+//        userService.updateCart(cart);
 
 
         if (greeting == null) {

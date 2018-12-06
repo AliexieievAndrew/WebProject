@@ -1,5 +1,6 @@
 package config;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -12,12 +13,17 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver;
+import org.springframework.webflow.mvc.servlet.FlowHandlerAdapter;
+import org.springframework.webflow.mvc.servlet.FlowHandlerMapping;
 
 @Configuration
 @EnableWebMvc
 
 @ComponentScan(basePackages = {"controller","exception"})
 public class WebConfig extends WebMvcConfigurerAdapter {
+
+    @Autowired
+    private WebFlowConfig webFlowConfig;
 
     // loading static resources
     @Override
@@ -47,10 +53,29 @@ public class WebConfig extends WebMvcConfigurerAdapter {
     }
 
     // for upload file (only name multipartResolver) !!!!!!!!!!
+    // for download images (files)
     @Bean
     MultipartResolver multipartResolver() {
         CommonsMultipartResolver commonsMultipartResolver = new CommonsMultipartResolver();
         commonsMultipartResolver.setMaxUploadSizePerFile(2097152L);
         return commonsMultipartResolver;
+    }
+
+
+    // for webflow config
+    @Bean
+    public FlowHandlerMapping flowHandlerMapping() {
+        FlowHandlerMapping handlerMapping = new FlowHandlerMapping();
+//        handlerMapping.setOrder(-1);
+        handlerMapping.setFlowRegistry(this.webFlowConfig.flowRegistry());
+        return handlerMapping;
+    }
+
+    @Bean
+    public FlowHandlerAdapter flowHandlerAdapter() {
+        FlowHandlerAdapter handlerAdapter = new FlowHandlerAdapter();
+        handlerAdapter.setFlowExecutor(this.webFlowConfig.flowExecutor());
+        handlerAdapter.setSaveOutputToFlashScopeOnRedirect(true);
+        return handlerAdapter;
     }
 }

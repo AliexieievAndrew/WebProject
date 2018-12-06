@@ -6,8 +6,12 @@ import dto.Cart;
 import dto.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
 
 @Service
+@Transactional()
 public class UserServiceImpl implements UserService{
 
     @Autowired
@@ -26,6 +30,11 @@ public class UserServiceImpl implements UserService{
     @Override
     public boolean addAddress(Address address) {
         return userDAO.addAddress(address);
+    }
+
+    @Override
+    public List<Address> getDeliveryAddresses(User user) {
+        return userDAO.getDeliveryAddresses(user);
     }
 
     @Override

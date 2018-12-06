@@ -3,19 +3,22 @@ package dto;
 import javax.persistence.*;
 
 @Entity
-
+@Table(name ="address")
 public class Address {
 
     @Id
-    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private int id;
 
-    @Column(name = "user_id")
-    private int userId;
+    @ManyToOne
+    private User user;
 
-    @Column(name = "address_line_one")
-    private String addressLineOne;
+    @Column(name = "address_line")
+    private String addressLine;
+
+    @Column(name = "address_description")
+    private String addressDescription;
 
     @Column(name = "city")
     private String city;
@@ -31,20 +34,28 @@ public class Address {
         this.id = id;
     }
 
-    public int getUserId() {
-        return userId;
+    public User getUser() {
+        return user;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setUser(User user) {
+        this.user = user;
     }
 
-    public String getAddressLineOne() {
-        return addressLineOne;
+    public String getAddressLine() {
+        return addressLine;
     }
 
-    public void setAddressLineOne(String addressLineOne) {
-        this.addressLineOne = addressLineOne;
+    public void setAddressLine(String addressLine) {
+        this.addressLine = addressLine;
+    }
+
+    public String getAddressDescription() {
+        return addressDescription;
+    }
+
+    public void setAddressDescription(String addressDescription) {
+        this.addressDescription = addressDescription;
     }
 
     public String getCity() {
@@ -67,8 +78,9 @@ public class Address {
     public String toString() {
         return "Address{" +
                 "id=" + id +
-                ", userId=" + userId +
-                ", addressLineOne='" + addressLineOne + '\'' +
+                ", user=" + user +
+                ", addressLine='" + addressLine + '\'' +
+                ", addressDescription='" + addressDescription + '\'' +
                 ", city='" + city + '\'' +
                 ", country='" + country + '\'' +
                 '}';

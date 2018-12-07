@@ -105,6 +105,13 @@ public class PageController {
         return "index";
     }
 
+    @GetMapping(value = {"/register"})
+    public String register(Model model) {
+        model.addAttribute("title","register");
+        model.addAttribute("userClick", "about");
+        return "index";
+    }
+
 
 
 //    only for testing

@@ -66,7 +66,8 @@ public class WebConfig extends WebMvcConfigurerAdapter {
     @Bean
     public FlowHandlerMapping flowHandlerMapping() {
         FlowHandlerMapping handlerMapping = new FlowHandlerMapping();
-//        handlerMapping.setOrder(-1);
+        // will using standart (not flow) getMapping if not -1
+        handlerMapping.setOrder(-1);
         handlerMapping.setFlowRegistry(this.webFlowConfig.flowRegistry());
         return handlerMapping;
     }

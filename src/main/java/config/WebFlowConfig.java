@@ -23,18 +23,23 @@ public class WebFlowConfig extends AbstractFlowConfiguration {
     @Autowired
     private WebConfig webConfig;
 
-    //2
     @Bean
     public FlowDefinitionRegistry flowRegistry() {
         return getFlowDefinitionRegistryBuilder(flowBuilderServices())
                 // in case if i dont want to use path i can use following for indicating the flow file and its ID
                 // .addFlowLocation("/WEB-INF/flows/signup-flow.xml")
+
+                // shows where need to look
                 .setBasePath("/WEB-INF/views/flows")
+
+                // /**/*-flow.xml - where
+                // for example registry
+                // /**/ - id (id = registry)
+                // /*-flow.xml - file (signup-flow.xml)
                 .addFlowLocationPattern("/**/*-flow.xml")
                 .build();
     }
 
-    //1
     @Bean
     public FlowExecutor flowExecutor() {
         return getFlowExecutorBuilder(flowRegistry()).build();

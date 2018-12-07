@@ -38,10 +38,14 @@
             <ul class = "nav navbar-nav navbar-right">
                 <li id = "register">
                     <#--  /register - FLOW ID -->
-                    <a class="nav-link" href="${context}/register">Registration</a>
+                    <a class="nav-link" href="${context}/register">
+                        <span class="fas fa-user-plus"/>
+                    </a>
                 </li>
                 <li id = "login">
-                    <a class="nav-link" href="${context}/login">Login</a>
+                    <a class="nav-link" href="${context}/login">
+                        <span class="fas fa-sign-in-alt"/>
+                    </a>
                 </li>
             </ul>
         </div>

@@ -1,10 +1,13 @@
 package dto;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table(name="cart")
-public class Cart {
+public class Cart implements Serializable {
+
+    private static final long serialVersionUID = 1l;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -4,17 +4,37 @@
       xsi:schemaLocation="http://www.springframework.org/schema/webflow
                           http://www.springframework.org/schema/webflow/spring-webflow.xsd">
 
-
+    <!--creating variables-->
+    <var name = "user" class="dto.User"/>
+    <var name = "billing" class="dto.Address"/>
 
     <!--its the start state-->
     <!--flows/  { FLOW ID ("/register" from navbar)}  /signup-personal-->
-    <view-state id="personal" view="flows/register/signup-personal"></view-state>
+    <!--user its a var name = "user" -->
+    <view-state id="personal" view="flows/register/signup-personal" model="user">
+        <!--var home getting from signup-personal.ftl Navigation-->
+        <transition on="billing" to="billing"/>
+    </view-state>
+
+
+
+    <view-state id="billing" view="flows/register/signup-billing" model="billing">
+        <transition on="personal" to="personal"/>
+        <transition on="confirm" to="confirm"/>
+    </view-state>
+
+
+    <view-state id="confirm" view="flows/register/signup-confirm">
+        <transition on="billing" to="billing"/>
+        <transition on="success" to="success"/>
+    </view-state>
     
 
 
     <!--end state-->
     <!--id="home" take from global-transitions ... to="home"-->
     <end-state id="home" view ="externalRedirect:contextRelative:/"/>
+    <end-state id="success" view ="flows/register/signup-success"/>
 
     <!--Global transition-->
     <!--var home getting from signup-personal.ftl Navigation-->

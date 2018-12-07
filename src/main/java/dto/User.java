@@ -1,13 +1,17 @@
 package dto;
 
 import org.hibernate.annotations.Type;
+import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotBlank;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table (name = "user_detail")
-public class User {
+public class User implements Serializable {
+
+    private static final long serialVersionUID = 1l;
 
     @Id
     @Column(name = "id")
@@ -48,7 +52,7 @@ public class User {
     private String password;
 
     @Column (name = "email")
-    @NotBlank(message = "Please enter your email")
+    @Email(message = "Please enter your correct email")
     private String email;
 
     @Column (name = "contact_number")

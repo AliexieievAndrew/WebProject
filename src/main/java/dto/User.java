@@ -51,6 +51,17 @@ public class User implements Serializable {
     @NotBlank(message = "Please enter your password")
     private String password;
 
+    @Transient
+    private String confirmPassword;
+
+    public String getConfirmPassword() {
+        return confirmPassword;
+    }
+
+    public void setConfirmPassword(String confirmPassword) {
+        this.confirmPassword = confirmPassword;
+    }
+
     @Column (name = "email")
     @NotBlank (message = "Please enter your email")
     @Email(message = "Please enter your correct email")

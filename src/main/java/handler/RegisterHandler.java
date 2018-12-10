@@ -5,6 +5,8 @@ import dto.Cart;
 import dto.User;
 import model.RegisterModel;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.binding.message.MessageBuilder;
+import org.springframework.binding.message.MessageContext;
 import org.springframework.stereotype.Component;
 import service.UserService;
 
@@ -30,6 +32,35 @@ public class RegisterHandler {
     // for state store the flow instance inside the register model
     public void addAddress(RegisterModel registerModel, Address billing){
         registerModel.setAddress(billing);
+    }
+
+
+    public String validateUser(User user, MessageContext messageContext) {
+        String transitionResponse = "success";
+
+        // checking the password
+        if(!(user.getPassword().equals(user.getConfirmPassword()))){
+
+            messageContext.addMessage(new MessageBuilder()
+                    .error()
+                    // confirmPassword is a path in User.class for form in signup-personal.ftl
+                    .source("confirmPassword")
+                    .defaultText("password doesn't match the confirm")
+                    .build());
+            transitionResponse = "failure";
+        }
+
+        // check for uniq email
+        if (userService.getByEmail(user.getEmail())!=null) {
+            messageContext.addMessage(new MessageBuilder()
+                    .error()
+                    // email is a path in User.class for form in signup-personal.ftl
+                    .source("email")
+                    .defaultText("email address is already used")
+                    .build());
+            transitionResponse = "failure";
+        }
+        return transitionResponse;
     }
 
     public void saveAll(RegisterModel registerModel){

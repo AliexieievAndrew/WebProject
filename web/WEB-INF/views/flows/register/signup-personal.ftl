@@ -48,6 +48,17 @@
                                 </div>
                             </div>
 
+                        <#--line confirmPasssword -->
+                            <div class="form-group">
+                                <label class = "control-label col-md-4" for="confirmPassword">
+                                    confirm password
+                                </label>
+                                <div class="col-md-8">
+                                    <@spring.formPasswordInput "user.confirmPassword", "class = 'form-control'"/>
+                                    <@spring.showErrors "<br/>",""/>
+                                </div>
+                            </div>
+
                         <#--line email -->
                             <div class="form-group">
                                 <label class = "control-label col-md-4" for="email">

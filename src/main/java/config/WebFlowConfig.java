@@ -3,6 +3,7 @@ package config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.webflow.config.AbstractFlowConfiguration;
 import org.springframework.webflow.definition.registry.FlowDefinitionRegistry;
@@ -49,7 +50,7 @@ public class WebFlowConfig extends AbstractFlowConfiguration {
     public FlowBuilderServices flowBuilderServices() {
         return getFlowBuilderServicesBuilder()
                 .setViewFactoryCreator(mvcViewFactoryCreator())
-//                .setValidator(validator())
+                .setValidator(validator())
                 .setDevelopmentMode(true)
                 .build();
     }
@@ -60,5 +61,10 @@ public class WebFlowConfig extends AbstractFlowConfiguration {
         factoryCreator.setViewResolvers(Collections.singletonList(this.webConfig.getViewResolver()));
         factoryCreator.setUseSpringBeanBinding(true);
         return factoryCreator;
+    }
+
+    @Bean
+    public LocalValidatorFactoryBean validator() {
+        return new LocalValidatorFactoryBean();
     }
 }

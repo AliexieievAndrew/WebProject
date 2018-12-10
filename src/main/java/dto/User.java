@@ -52,6 +52,7 @@ public class User implements Serializable {
     private String password;
 
     @Column (name = "email")
+    @NotBlank (message = "Please enter your email")
     @Email(message = "Please enter your correct email")
     private String email;
 

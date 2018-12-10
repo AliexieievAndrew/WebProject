@@ -43,7 +43,7 @@
                                     Your password
                                 </label>
                                 <div class="col-md-8">
-                                    <@spring.formInput "user.password", "class = 'form-control'","text"/>
+                                    <@spring.formPasswordInput "user.password", "class = 'form-control'"/>
                                     <@spring.showErrors "<br/>",""/>
                                 </div>
                             </div>
@@ -78,10 +78,6 @@
                                         Next - Billing
                                         <span class="fas fa-chevron-right"/>
                                     </button>
-
-                                    <#--hidden fields for user-->
-                                    <#--<@spring.formHiddenInput "user.id",""/>-->
-                                    <#--<@spring.formHiddenInput "user.enabled",""/>-->
                                 </div>
                             </div>
                         </form>

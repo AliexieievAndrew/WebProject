@@ -1,5 +1,7 @@
 package dto;
 
+import org.hibernate.validator.constraints.NotBlank;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
@@ -18,15 +20,19 @@ public class Address implements Serializable {
     private User user;
 
     @Column(name = "address_line")
+    @NotBlank(message = "please enter your address")
     private String addressLine;
 
     @Column(name = "address_description")
+    @NotBlank(message = "please enter your address description")
     private String addressDescription;
 
     @Column(name = "city")
+    @NotBlank(message = "please enter your city")
     private String city;
 
     @Column(name = "country")
+    @NotBlank(message = "please enter your country")
     private String country;
 
     public int getId() {

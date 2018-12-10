@@ -73,11 +73,6 @@
                                         Next - Confirm
                                         <span class="fas fa-chevron-right"/>
                                     </button>
-
-
-                                    <#--hidden fields for user-->
-                                    <#--<@spring.formHiddenInput "billing.id",""/>-->
-                                    <#--<@spring.formHiddenInput "billing.user",""/>-->
                                 </div>
                             </div>
                         </form>

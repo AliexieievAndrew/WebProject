@@ -5,8 +5,17 @@
                           http://www.springframework.org/schema/webflow/spring-webflow.xsd">
 
     <!--creating variables-->
+    <!--this variables going to RegisterModel.class-->
     <var name = "user" class="dto.User"/>
     <var name = "billing" class="dto.Address"/>
+
+    <!-- returning and adding inside the flow a registrmodel instance -->
+    <!--3.9.1. Flow Scope
+        Flow scope gets allocated when a flow starts and destroyed when the flow ends.
+        With the default implementation, any objects stored in flow scope need to be Serializable.-->
+    <on-start>
+        <evaluate expression="registerHandler.init()" result="flowScope.registerModel"/>
+    </on-start>
 
     <!--its the start state-->
     <!--flows/  { FLOW ID ("/register" from navbar)}  /signup-personal-->
@@ -14,6 +23,11 @@
     <view-state id="personal" view="flows/register/signup-personal" model="user">
         <!--var home getting from signup-personal.ftl Navigation-->
         <transition on="billing" to="billing"/>
+
+        <!--state store the flow instance inside the register model-->
+        <on-exit>
+            <evaluate expression="registerHandler.addUser(flowScope.registerModel, user)"/>
+        </on-exit>
     </view-state>
 
 
@@ -21,15 +35,25 @@
     <view-state id="billing" view="flows/register/signup-billing" model="billing">
         <transition on="personal" to="personal"/>
         <transition on="confirm" to="confirm"/>
+
+        <!--state store the flow instance inside the register model-->
+        <on-exit>
+            <evaluate expression="registerHandler.addAddress(flowScope.registerModel, billing)"/>
+        </on-exit>
+
     </view-state>
 
 
-    <view-state id="confirm" view="flows/register/signup-confirm">
+    <view-state id="confirm" view="flows/register/signup-confirm" model="flowScope.registerModel">
         <transition on="billing" to="billing"/>
-        <transition on="success" to="success"/>
+        <transition on="submit" to="submit"/>
     </view-state>
     
-
+    <!--When user click Confirm-->
+    <action-state id="submit" >
+        <evaluate expression="registerHandler.saveAll(flowScope.registerModel)"/>
+        <transition on="success" to="success"/>
+    </action-state>
 
     <!--end state-->
     <!--id="home" take from global-transitions ... to="home"-->

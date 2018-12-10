@@ -12,6 +12,7 @@
 
                     <div class="panel-body">
                         <#--modelAttribute takken from signup-flow.xml (..var name = "user"..) -->
+                        <#-- modelAttribute ="user" goiing to RegisterModel.class-->
                         <form class="form-horizontal" method="post" id="registerForm" modelAttribute ="user">
 
                         <#--line first name-->

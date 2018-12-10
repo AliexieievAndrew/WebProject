@@ -1,6 +1,7 @@
 package config;
 
 import exception.GlobalDefaultExceptionHandler;
+import handler.RegisterHandler;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
@@ -16,7 +17,7 @@ public class WebAppInitializer implements WebApplicationInitializer {
         AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
 
         // adding config classes
-        context.register(WebConfig.class, HibernateConfig.class,WebFlowConfig.class);
+        context.register(WebConfig.class, HibernateConfig.class,WebFlowConfig.class, RegisterHandler.class);
         context.setServletContext(servletContext);
 
 

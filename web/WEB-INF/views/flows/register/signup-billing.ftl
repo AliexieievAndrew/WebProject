@@ -12,6 +12,7 @@
 
                     <div class="panel-body">
                         <#--billing  its address from signup_flow.xml-->
+                        <#-- modelAttribute ="billing" goiing to RegisterModel.class-->
                         <form class="form-horizontal" method="post" id="billingForm" modelAttribute ="billing">
 
                         <#--line country -->
@@ -50,7 +51,7 @@
                         <#--line address description -->
                             <div class="form-group">
                                 <label class = "control-label col-md-4" for="addressDescription">
-                                    Your email
+                                    Your address description
                                 </label>
                                 <div class="col-md-8">
                                     <@spring.formInput "billing.addressDescription", "class = 'form-control'","text"/>

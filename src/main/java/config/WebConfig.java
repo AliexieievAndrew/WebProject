@@ -19,7 +19,7 @@ import org.springframework.webflow.mvc.servlet.FlowHandlerMapping;
 @Configuration
 @EnableWebMvc
 
-@ComponentScan(basePackages = {"controller","exception"})
+@ComponentScan(basePackages = {"controller","exception","security"})
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     @Autowired

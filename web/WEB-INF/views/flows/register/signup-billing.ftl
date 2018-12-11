@@ -54,7 +54,7 @@
                                     Your address description
                                 </label>
                                 <div class="col-md-8">
-                                    <@spring.formInput "billing.addressDescription", "class = 'form-control'","text"/>
+                                    <@spring.formTextarea "billing.addressDescription", "class = 'form-control'"/>
                                     <@spring.showErrors "<br/>",""/>
                                 </div>
                             </div>

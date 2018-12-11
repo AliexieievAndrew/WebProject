@@ -123,7 +123,7 @@ public class PageController {
 
         user.setFirstName("andrew");
         user.setLastName("alexeev");
-        user.setRole(2);
+        user.setRole("user");
         user.setPassword("12345");
         user.setEmail("AndrewBEST@ukr.net");
         user.setContactNumber("555222111");

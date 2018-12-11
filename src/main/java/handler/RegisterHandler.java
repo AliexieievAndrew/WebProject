@@ -67,7 +67,7 @@ public class RegisterHandler {
         System.out.println("saveAll working");
 
         User user = registerModel.getUser();
-        user.setRole(2);
+        user.setRole("USER");
 
         Cart cart = new Cart();
         cart.setUser(user);

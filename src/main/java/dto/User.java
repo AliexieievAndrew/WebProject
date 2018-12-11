@@ -40,8 +40,8 @@ public class User implements Serializable {
     @NotBlank(message = "Please enter your last name")
     private String lastName;
 
-    @Column(name = "role_id")
-    private int role;
+    @Column(name = "role")
+    private String role;
 
     @Column(name = "enabled")
     @Type(type = "org.hibernate.type.NumericBooleanType")
@@ -95,11 +95,11 @@ public class User implements Serializable {
         this.lastName = lastName;
     }
 
-    public int getRole() {
+    public String getRole() {
         return role;
     }
 
-    public void setRole(int role) {
+    public void setRole(String role) {
         this.role = role;
     }
 

@@ -7,24 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c8f8010-5189-4caf-8453-89bec5aed653" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/jquery.validate.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d884eb4-d858-4e2e-acd0-ce92e869079a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d884eb4-d858-4e2e-acd0-ce92e869079a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d884eb4-d858-4e2e-acd0-ce92e869079a/storage_v2/_src_/database/Delivery.FIDvNA/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d884eb4-d858-4e2e-acd0-ce92e869079a/storage_v2/_src_/database/Delivery.FIDvNA/schema/dbo.sYMBAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exception/GlobalDefaultExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception/GlobalDefaultExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/handler/RegisterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/RegisterHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/security/AppSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/AppSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/security/SecurityInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/security/SecurityInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/controller/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/dto/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/dto/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/css/myapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/css/myapp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/exception/GlobalDefaultExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/exception/GlobalDefaultExceptionHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/handler/RegisterHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/handler/RegisterHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/js/myapp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/security/AppSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/security/AppSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/WEB-INF/classes/security/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/css/myapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/css/myapp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/assets/js/myapp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/OnlineShop-1.0-SNAPSHOT/index.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/PageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/PageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dto/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/css/myapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/css/myapp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exception/GlobalDefaultExceptionHandler.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/handler/RegisterHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/handler/RegisterHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/js/myapp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/security/AppSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/security/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/myapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/myapp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/myapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/js/myapp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,11 +85,11 @@
     <session id="199163284">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="2" />
@@ -89,8 +99,9 @@
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -98,39 +109,39 @@
           <entry key="address" value="5" />
           <entry key="cart" value="4" />
           <entry key="category" value="4" />
-          <entry key="class" value="10" />
-          <entry key="css" value="46" />
+          <entry key="class" value="11" />
+          <entry key="css" value="50" />
           <entry key="dbo" value="2" />
-          <entry key="ftl" value="98" />
-          <entry key="html" value="9" />
-          <entry key="java" value="205" />
+          <entry key="ftl" value="105" />
+          <entry key="html" value="10" />
+          <entry key="java" value="230" />
           <entry key="jpg" value="12" />
-          <entry key="js" value="60" />
+          <entry key="js" value="74" />
           <entry key="jsp" value="2" />
           <entry key="product" value="18" />
-          <entry key="rnc" value="2" />
+          <entry key="rnc" value="3" />
           <entry key="roles" value="1" />
           <entry key="sql" value="11" />
           <entry key="svg" value="2" />
           <entry key="ttf" value="3" />
-          <entry key="user_detail" value="16" />
+          <entry key="user_detail" value="20" />
           <entry key="xml" value="20" />
           <entry key="xsd" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="10" />
-          <entry key="CSS" value="46" />
-          <entry key="Database Element" value="48" />
-          <entry key="FTL" value="98" />
+          <entry key="CLASS" value="11" />
+          <entry key="CSS" value="50" />
+          <entry key="Database Element" value="52" />
+          <entry key="FTL" value="105" />
           <entry key="Font" value="3" />
-          <entry key="HTML" value="9" />
+          <entry key="HTML" value="10" />
           <entry key="Image" value="12" />
-          <entry key="JAVA" value="205" />
+          <entry key="JAVA" value="230" />
           <entry key="JSP" value="2" />
-          <entry key="JavaScript" value="60" />
-          <entry key="RNG Compact" value="2" />
+          <entry key="JavaScript" value="74" />
+          <entry key="RNG Compact" value="3" />
           <entry key="SVG" value="2" />
           <entry key="Scratch" value="11" />
           <entry key="UML" value="2" />
@@ -139,29 +150,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell" value="30" />
-          <entry key="css" value="821" />
+          <entry key="cell" value="35" />
+          <entry key="css" value="823" />
           <entry key="dummy" value="4" />
-          <entry key="ftl" value="9697" />
+          <entry key="ftl" value="10037" />
           <entry key="html" value="5" />
-          <entry key="java" value="19164" />
-          <entry key="js" value="3272" />
+          <entry key="java" value="19640" />
+          <entry key="js" value="4069" />
           <entry key="jsp" value="1" />
-          <entry key="sql" value="1761" />
+          <entry key="sql" value="1767" />
           <entry key="txt" value="384" />
           <entry key="xml" value="1710" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="821" />
-          <entry key="FTL" value="9697" />
+          <entry key="CSS" value="823" />
+          <entry key="FTL" value="10037" />
           <entry key="HTML" value="14" />
-          <entry key="JAVA" value="19164" />
+          <entry key="JAVA" value="19640" />
           <entry key="JSP" value="1" />
-          <entry key="JavaScript" value="3263" />
+          <entry key="JavaScript" value="4060" />
           <entry key="PLAIN_TEXT" value="388" />
-          <entry key="Scratch" value="1791" />
+          <entry key="SQL" value="3" />
+          <entry key="Scratch" value="1799" />
           <entry key="XML" value="1710" />
         </counts>
       </usages-collector>
@@ -169,11 +181,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/security/AppSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state relative-caret-position="353">
+              <caret line="65" column="68" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,20 +193,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.1.RELEASE/spring-security-config-5.1.1.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exception/GlobalDefaultExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="351" column="24" lean-forward="true" selection-start-line="347" selection-start-column="11" selection-end-line="351" selection-end-column="24" />
+            <state relative-caret-position="332">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7d884eb4-d858-4e2e-acd0-ce92e869079a/console_1.sql">
+        <entry file="das://7d884eb4-d858-4e2e-acd0-ce92e869079a/database/delivery/schema/dbo/table/user_detail">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assets/js/myapp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="101" column="26" lean-forward="true" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+            <state relative-caret-position="204">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -202,8 +223,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/security/SecurityInit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/login.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/PageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="130" column="15" selection-start-line="130" selection-start-column="15" selection-end-line="130" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7d884eb4-d858-4e2e-acd0-ce92e869079a/console_1.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -216,29 +267,15 @@
         <option value="JavaScript File" />
         <option value="AMD JavaScript File" />
         <option value="Jsp File" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="webflow.2_0" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>modal</find>
-      <find>data-tar</find>
-      <find>data-ta</find>
-      <find>conte</find>
-      <find>doubl</find>
-      <find>floa</find>
-      <find>setUserId</find>
-      <find>mapp</find>
-      <find>user:</find>
-      <find>cart</find>
-      <find>hiber</find>
-      <find>addAddress true</find>
-      <find>view</find>
-      <find>body</find>
       <find>conf</find>
       <find>webflow</find>
       <find>title</find>
@@ -255,6 +292,20 @@
       <find>descr</find>
       <find>authoritiesByUsernameQuery</find>
       <find>role</find>
+      <find>log</find>
+      <find>logi</find>
+      <find>login</find>
+      <find>styl</find>
+      <find>csrf</find>
+      <find>errorPlacement</find>
+      <find>has</find>
+      <find>conso</find>
+      <find>validate</find>
+      <find>This field is required</find>
+      <find>messa</find>
+      <find>err</find>
+      <find>exce</find>
+      <find>admin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -263,17 +314,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/spring.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/manage_products.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/service/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/JsonDataController.java" />
         <option value="$PROJECT_DIR$/web/assets/js/TestforDelete.js" />
-        <option value="$PROJECT_DIR$/web/assets/css/myapp.css" />
-        <option value="$PROJECT_DIR$/web/assets/js/myapp.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/util/FileUploadUtility.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/Test.jsp" />
-        <option value="$PROJECT_DIR$/web/index.ftl" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/new_category.html" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/new_category.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/dto/Category.java" />
@@ -308,12 +352,19 @@
         <option value="$PROJECT_DIR$/src/main/java/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/security/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/dto/Role.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7d884eb4-d858-4e2e-acd0-ce92e869079a/console_1.sql" />
         <option value="$PROJECT_DIR$/src/main/java/dto/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/PageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/security/SecurityInit.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/login.html" />
+        <option value="$PROJECT_DIR$/web/assets/css/myapp.css" />
+        <option value="$PROJECT_DIR$/src/main/java/validator/ProductValidator.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7d884eb4-d858-4e2e-acd0-ce92e869079a/console_1.sql" />
         <option value="$PROJECT_DIR$/src/main/java/handler/RegisterHandler.java" />
+        <option value="$PROJECT_DIR$/web/index.ftl" />
+        <option value="$PROJECT_DIR$/web/assets/js/myapp.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/login.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/security/AppSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exception/GlobalDefaultExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/PageController.java" />
       </list>
     </option>
   </component>
@@ -417,23 +468,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
@@ -462,28 +497,26 @@
             <path>
               <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
@@ -491,33 +524,6 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="flows" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="flows" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="flows" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -532,7 +538,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544544281106" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544634900333" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -543,16 +549,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\SpringProjects\OnlineShop\web\WEB-INF\views" />
-      <recent name="E:\SpringProjects\OnlineShop\web\assets\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SpringProjects\OnlineShop\web\assets\js" />
       <recent name="E:\SpringProjects\OnlineShop\web\WEB-INF\views\flows\register" />
       <recent name="E:\SpringProjects\OnlineShop\web\WEB-INF\views" />
       <recent name="E:\SpringProjects\OnlineShop\src\main\resources\images" />
       <recent name="E:\SpringProjects\OnlineShop\web\assets\images" />
-      <recent name="E:\SpringProjects\OnlineShop\web\assets\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SpringProjects\OnlineShop\web\WEB-INF\views" />
+      <recent name="E:\SpringProjects\OnlineShop\web\assets\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -715,7 +721,9 @@
       <workItem from="1543996937807" duration="19924000" />
       <workItem from="1544090006561" duration="24752000" />
       <workItem from="1544176457134" duration="23375000" />
-      <workItem from="1544432662864" duration="39544000" />
+      <workItem from="1544432662864" duration="40521000" />
+      <workItem from="1544606252713" duration="22300000" />
+      <workItem from="1544686204030" duration="5648000" />
     </task>
     <task id="LOCAL-00001" summary="added config classes, controller, successful launch">
       <created>1542365319688</created>
@@ -781,12 +789,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="455112000" />
+    <option name="totallyTimeSpent" value="484037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49044585" visible="true" weight="0.18926175" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49044585" visible="true" weight="0.19463088" />
       <window_info id="Structure" order="1" sideWeight="0.50955415" side_tool="true" weight="0.18926175" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -796,7 +805,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.6062323" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.21671388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -821,41 +830,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.22214764" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469798" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3286119" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3371105" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Spring" order="9" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -882,362 +856,173 @@
     <option name="LAST_COMMIT_MESSAGE" value="finish the web interface, fixed footer position, changed web theme to mint" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/flows/shared/flows-navbar.ftl">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.1.RELEASE/spring-security-config-5.1.1.RELEASE-sources.jar!/org/springframework/security/config/annotation/authentication/configurers/provisioning/JdbcUserDetailsManagerConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="78" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="78" />
+        <state relative-caret-position="-147">
+          <caret line="107" column="47" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/shared/navbar.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/JsonDataController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+        <state relative-caret-position="102">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/myapp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="176" column="21" lean-forward="true" selection-start-line="176" selection-start-column="21" selection-end-line="176" selection-end-column="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/about.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/flows/register/signup-success.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="59" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/home.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.1.RELEASE/spring-context-5.1.1.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="65" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="32" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/webflow/spring-webflow/2.5.1.RELEASE/spring-webflow-2.5.1.RELEASE.jar!/org/springframework/webflow/engine/model/builder/xml/spring-webflow.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="1154" column="20" selection-start-line="1154" selection-start-column="20" selection-end-line="1154" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/flows/register/signup-confirm.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/Transient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dto/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.1.RELEASE/spring-webmvc-5.1.1.RELEASE.jar!/org/springframework/web/servlet/view/freemarker/spring.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="174" column="25" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/flows/register/signup-flow.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/flows/register/signup-flow.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.1.RELEASE/spring-security-config-5.1.1.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.1.RELEASE/spring-security-config-5.1.1.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+        <state relative-caret-position="265">
+          <caret line="591" column="40" lean-forward="true" selection-start-line="591" selection-start-column="3" selection-end-line="591" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/new_category.ftl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/single_product.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="das://7d884eb4-d858-4e2e-acd0-ce92e869079a/database/delivery/schema/dbo/table/cart">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.1.RELEASE/spring-security-core-5.1.1.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.1.RELEASE/spring-security-core-5.1.1.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
+    <entry file="file://$PROJECT_DIR$/web/assets/css/myapp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="59">
+          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.1.RELEASE/spring-web-5.1.1.RELEASE-sources.jar!/org/springframework/web/bind/annotation/GetMapping.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/validator/ProductValidator.java" />
+    <entry file="jrt://C:/Program Files/Java/jdk-10.0.2!/jdk.packager/com/sun/javafx/tools/resource/dtoolkit/resources/web-files/dtjava.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="28" />
+        <state relative-caret-position="174">
+          <caret line="3375" column="8" selection-start-line="3375" selection-start-column="8" selection-end-line="3375" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/allproducts.ftl">
+    <entry file="file://$PROJECT_DIR$/web/assets/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/flows/register/signup-billing.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="112" selection-start-line="56" selection-start-column="112" selection-end-line="56" selection-end-column="112" />
+        <state relative-caret-position="158">
+          <caret line="2780" column="4" selection-start-line="2780" selection-start-column="1" selection-end-line="2780" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebFlowConfig.java">
+    <entry file="file://$PROJECT_DIR$/web/assets/js/dataTables.bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/jquery.dataTables.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="167" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="167" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="172">
+          <caret line="671" column="61" selection-start-line="671" selection-start-column="61" selection-end-line="671" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/jquery.validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="364" column="44" lean-forward="true" selection-start-line="364" selection-start-column="44" selection-end-line="364" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1623">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/manage_products_freemarker.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="57" column="49" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.1.RELEASE/spring-security-config-5.1.1.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.1.RELEASE/spring-security-core-5.1.1.RELEASE-sources.jar!/org/springframework/security/core/userdetails/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="332" column="30" selection-start-line="332" selection-start-column="30" selection-end-line="332" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/security/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebAppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.sql/javax/sql/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7d884eb4-d858-4e2e-acd0-ce92e869079a/database/delivery/schema/dbo/table/address">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7d884eb4-d858-4e2e-acd0-ce92e869079a/database/delivery/schema/dbo/table/roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/RegisterModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dto/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/FileUploadUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/flows/register/signup-personal.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dto/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="101" column="30" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1446#1447#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-            <element signature="e#1600#1601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="18" column="14" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.1.RELEASE/spring-security-core-5.1.1.RELEASE-sources.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-          <folding>
-            <element signature="e#1579#1580#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.1.RELEASE/spring-security-config-5.1.1.RELEASE-sources.jar!/org/springframework/security/config/annotation/authentication/configurers/userdetails/AbstractDaoAuthenticationConfigurer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.1.RELEASE/spring-security-config-5.1.1.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+        <state relative-caret-position="186">
+          <caret line="400" column="24" lean-forward="true" selection-start-line="397" selection-start-column="10" selection-end-line="400" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/RegisterModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="55" selection-end-line="29" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/handler/RegisterHandler.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/myapp.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/HibernateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-245">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/security/SecurityInit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7d884eb4-d858-4e2e-acd0-ce92e869079a/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1248,34 +1033,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7d884eb4-d858-4e2e-acd0-ce92e869079a/console_1.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/exception/ProductNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="101" column="26" lean-forward="true" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.1.RELEASE/spring-security-config-5.1.1.RELEASE-sources.jar!/org/springframework/security/config/annotation/authentication/configurers/provisioning/JdbcUserDetailsManagerConfigurer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.1.RELEASE/spring-security-web-5.1.1.RELEASE.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="107" column="47" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
+        <state relative-caret-position="102">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/security/AppSecurityConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.1.RELEASE/spring-web-5.1.1.RELEASE-sources.jar!/org/springframework/web/filter/GenericFilterBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        <state relative-caret-position="148">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.1.RELEASE/spring-security-web-5.1.1.RELEASE-sources.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="76" column="54" lean-forward="true" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.1.RELEASE/spring-security-config-5.1.1.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="679" column="49" lean-forward="true" selection-start-line="679" selection-start-column="49" selection-end-line="679" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.1.RELEASE/spring-security-config-5.1.1.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/ExceptionHandlingConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exception/GlobalDefaultExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="130" column="15" selection-start-line="130" selection-start-column="15" selection-end-line="130" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.1.RELEASE/spring-security-config-5.1.1.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/security/AppSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="351" column="24" lean-forward="true" selection-start-line="347" selection-start-column="11" selection-end-line="351" selection-end-column="24" />
+        <state relative-caret-position="353">
+          <caret line="65" column="68" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

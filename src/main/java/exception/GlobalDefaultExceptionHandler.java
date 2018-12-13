@@ -1,9 +1,12 @@
 package exception;
 
+import org.springframework.security.web.access.ExceptionTranslationFilter;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.NoHandlerFoundException;
+
+import java.nio.file.AccessDeniedException;
 
 // in the WebConfig added to @ComponentScan
 @ControllerAdvice

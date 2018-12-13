@@ -24,6 +24,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <#-- CSRF -->
+    <#-- configured in myapp.js -->
+    <#--<meta name="_csrf" content="${_csrf.token}">-->
+    <#--<meta name="_csrf_header" content="${_csrf.headerName}">-->
+
     <title>Delivery food homepage - ${title}</title>
 
     <#--window is a JS global object-->
@@ -68,6 +73,11 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="${js}/jquery.min.js"></script>
+
+    <#--Jquery validate-->
+    <#--from https://github.com/jquery-validation/jquery-validation/releases/tag/1.19.0 -->
+    <script src="${js}/jquery.validate.js"></script>
+
     <script src="${js}/bootstrap.bundle.min.js"></script>
 
 <#--DataTable plugin-->

@@ -7,6 +7,7 @@ import model.RegisterModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.binding.message.MessageBuilder;
 import org.springframework.binding.message.MessageContext;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Component;
 import service.UserService;
 
@@ -18,6 +19,9 @@ public class RegisterHandler {
 
     @Autowired
     UserService userService;
+
+    @Autowired
+    BCryptPasswordEncoder bCryptPasswordEncoder;
 
     public RegisterModel init() {
         return new RegisterModel();
@@ -67,6 +71,10 @@ public class RegisterHandler {
         System.out.println("saveAll working");
 
         User user = registerModel.getUser();
+
+        // testing
+        user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+
         user.setRole("USER");
 
         Cart cart = new Cart();

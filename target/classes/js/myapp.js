@@ -1,4 +1,18 @@
 $(function () {
+
+    // for handling CSRF token
+    // https://stackoverflow.com/questions/30012318/403-forbidden-invalid-csrf
+    // var token = $('meta[name="_csrf"]').attr('content');
+    // var header = $('meta[name="_csrf_header"]').attr('content');
+    //
+    // if((token!=undefined && header !=undefined) && (token.length > 0 && header.length > 0)) {
+    //     // set the token header for the ajax request
+    //     $(document).ajaxSend(function(e, xhr, options) {
+    //         xhr.setRequestHeader(header,token);
+    //     });
+    // }
+
+
    // solving the active menu problem (button lights)
    switch (menu) {
        case 'About':
@@ -222,4 +236,55 @@ $(function () {
                 });
             }
         });
+
+
+    // --------------- jQuery Validation Code
+    //methods required for validation
+    function errorPlacement(error, element) {
+        // Add the 'help-block' class to the error element
+        error.addClass("help-block");
+
+        // add the error label after the input element
+        error.insertAfter(element);
+
+
+        // add the has-feedback class to the
+        // parent div.validate in order to add icons to inputs
+        element.parents(".validate").addClass("has-feedback");
+
+    }
+
+    // --------------- validation code for the loginForm
+    var $loginForm = $('#loginForm');
+    if($loginForm.length){
+        console.log('inside login form');
+        $loginForm.validate({
+            rules: {
+                username: {
+                    required: true,
+                    email: true
+                },
+                password: {
+                    required:true
+                }
+            },
+            messages: {
+                username: {
+                    required: 'please enter email',
+                    email: 'please enter valid email'
+                },
+                password: {
+                    required: 'please enter the password'
+                }
+            },
+            errorElement : "em",
+            errorPlacement : function(error, element) {
+                // Add the 'help-block' class to the error element
+                error.addClass("help-block");
+
+                // add the error label after the input element
+                error.insertAfter(element);
+            }
+        });
+    }
 });

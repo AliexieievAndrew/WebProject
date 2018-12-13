@@ -105,6 +105,7 @@ public class PageController {
         return "index";
     }
 
+    // Register new user
     @GetMapping(value = {"/register"})
     public String register(Model model) {
         model.addAttribute("title","register");
@@ -112,7 +113,27 @@ public class PageController {
         return "index";
     }
 
+    // login
+    @GetMapping(value = {"/login"})
+    public String login(@RequestParam(name ="error", required = false)String error, Model model) {
 
+        if(error != null) {
+            model.addAttribute("message", "invalid username or password");
+        }
+
+        model.addAttribute("title","login");
+        model.addAttribute("userClick", "login");
+        return "index";
+    }
+
+    // Access Denied
+    @GetMapping("/accessDenied")
+    public String accessDeniedException(Model model){
+        model.addAttribute("errorTitle", "accessDenied");
+        model.addAttribute("errorDescription","access Denied now :(");
+        model.addAttribute("title", "access Denied");
+        return "error";
+    }
 
 //    only for testing
 //    @GetMapping ("/test")
@@ -127,9 +148,6 @@ public class PageController {
         user.setPassword("12345");
         user.setEmail("AndrewBEST@ukr.net");
         user.setContactNumber("555222111");
-
-
-
 
         // 1.1 create Cart
         Cart cart = new Cart();

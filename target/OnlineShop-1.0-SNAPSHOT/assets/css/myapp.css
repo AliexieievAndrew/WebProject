@@ -97,3 +97,8 @@ padding-bottom: 100px; /*height of the footer*/
 .checkbox input:focus + .checkbox__text:before {
     box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0 0 0 3px rgba(255,255,0,.7);
 }
+
+/* overridden css */
+.help-block {
+    color: #ff0000;
+}

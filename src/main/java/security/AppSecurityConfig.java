@@ -35,7 +35,10 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
         auth
             .jdbcAuthentication()
             .dataSource(dataSource)
+                // name/password/role
             .usersByUsernameQuery("SELECT email, password, enabled FROM user_detail WHERE email = ?")
+
+            // name/role
             .authoritiesByUsernameQuery("SELECT email, role FROM user_detail WHERE email = ?")
 //            .passwordEncoder(NoOpPasswordEncoder.getInstance()); // Temporary
                 .passwordEncoder(new BCryptPasswordEncoder()); // Temporary
@@ -48,7 +51,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/manage/**").hasAuthority("ADMIN")
 
                 // only user
-                .antMatchers("/cart/**").hasAuthority("USER")
+                .antMatchers("/cart/**").hasAnyAuthority("ADMIN","USER")
 
 
                 // rest
@@ -65,6 +68,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
                 // AccessDeniedException
                 .exceptionHandling().accessDeniedPage("/accessDenied").and()
 
+                .logout().invalidateHttpSession(true).and()
                 // If users will not be using application in a web
                 .csrf().disable()
         ;

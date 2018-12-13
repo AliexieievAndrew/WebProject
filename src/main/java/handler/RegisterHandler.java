@@ -12,8 +12,6 @@ import org.springframework.stereotype.Component;
 import service.UserService;
 
 // this class is for spring web flow
-
-
 @Component
 public class RegisterHandler {
 

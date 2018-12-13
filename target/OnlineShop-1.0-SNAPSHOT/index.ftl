@@ -59,6 +59,9 @@
 
 <body>
 
+<#--background="${context}/resources/images/bodypic.jpg"-->
+
+
 <div class="wrapper">
     <!-- Navigation -->
     <#include "WEB-INF/views/shared/navbar.ftl">

@@ -1,7 +1,6 @@
 package controller;
 
-import dao.CategoryDAO;
-import dao.ProductDAO;
+
 import dto.*;
 import exception.ProductNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;

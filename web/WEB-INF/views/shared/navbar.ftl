@@ -71,7 +71,7 @@
 
                             <#--cart-->
                             <li id = "cart">
-                                <a class="nav-link" href="${context}/cart">
+                                <a class="nav-link" href="${context}/cart/show">
                                     <span class="fas fa-shopping-cart"/>
                                 </a>
                             </li>

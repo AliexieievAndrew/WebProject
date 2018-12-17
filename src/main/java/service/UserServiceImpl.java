@@ -36,9 +36,4 @@ public class UserServiceImpl implements UserService{
     public List<Address> getDeliveryAddresses(User user) {
         return userDAO.getDeliveryAddresses(user);
     }
-
-    @Override
-    public boolean updateCart(Cart cart) {
-        return userDAO.updateCart(cart);
-    }
 }

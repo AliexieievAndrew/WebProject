@@ -13,6 +13,4 @@ public interface UserService {
 
     boolean addAddress(Address address);
     List<Address> getDeliveryAddresses(User user);
-
-    boolean updateCart(Cart cart);
 }

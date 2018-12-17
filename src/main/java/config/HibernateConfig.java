@@ -40,6 +40,11 @@ public class HibernateConfig {
         return new UserDAOImpl();
     }
 
+    @Bean
+    public CartLineDAO cartLineDAO (){
+        return new CartLineDAOImpl();
+    }
+
     // dbcp lib(maven)
     @Bean
     public DataSource getDataSource() {
@@ -99,5 +104,9 @@ public class HibernateConfig {
         return new UserServiceImpl();
     }
 
+    @Bean
+    public CartLineService getCartLineService() {
+        return new CartLineServiceImpl();
+    }
 
 }

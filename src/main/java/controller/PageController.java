@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import service.CartLineService;
 import service.CategoryService;
 import service.ProductService;
 import service.UserService;
@@ -133,6 +134,39 @@ public class PageController {
         model.addAttribute("title", "access Denied");
         return "error";
     }
+
+    @Autowired
+    CartLineService cartLineService;
+
+    @GetMapping ("/test")
+    public String testCartLine(Model model){
+        User user = userService.getByEmail("lady@businka.com");
+
+        System.out.println("ВЫЗЫВАЕМ");
+        Cart cart = user.getCart();
+
+        Product product = productService.get(1);
+
+        CartLine cartLine = new CartLine();
+
+        cartLine.setBuyingPrice(product.getUnitPrice());
+        cartLine.setProductCount(cartLine.getProductCount() + 1);
+        cartLine.setTotal(cartLine.getProductCount() * product.getUnitPrice());
+        cartLine.setAvailable(true);
+        cartLine.setProduct(product);
+
+        cartLine.setCartId(cart.getId());
+
+        cartLineService.add(cartLine);
+
+        // updating cart
+        cart.setTotal(cart.getTotal() + cartLine.getTotal());
+        cart.setCartLines(cart.getCartLines() + 1);
+        cartLineService.updateCart(cart);
+
+        model.addAttribute("greeting", "Testing");
+        return "test";
+        }
 
 //    only for testing
 //    @GetMapping ("/test")

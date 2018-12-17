@@ -16,9 +16,6 @@ public interface UserDAO {
     boolean addAddress(Address address);
     List<Address> getDeliveryAddresses(User user);
 
-    // Cart
-    boolean updateCart(Cart cart);
-
     // doesn't using, because using cascade = CascadeType.ALL in annotation @OneToOne
 //    boolean addCart(Cart cart);
 }

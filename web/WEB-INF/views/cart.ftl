@@ -1,8 +1,11 @@
 <#--Example-->
-<#--https://bootsnipp.com/snippets/featured/responsive-shopping-cart-->
+<#--was taken here-->
+<#-- https://bootsnipp.com/snippets/featured/responsive-shopping-cart -->
 
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <div class="container">
+
+    <#if cartLines??>
     <table id="cart" class="table table-hover table-condensed">
         <thead>
         <tr>
@@ -42,11 +45,12 @@
         </tbody>
         <tfoot>
         <tr>
-            <td><a href="#" class="btn btn-warning"><span class="fa fa-angle-left"></span> Continue Shopping</a></td>
+            <td><a href="${context}/show/all/products" class="btn btn-warning"><span class="fa fa-angle-left"></span> Continue Shopping</a></td>
             <td colspan="2" class="hidden-xs"></td>
             <td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
             <td><a href="#" class="btn btn-success btn-block">Checkout <span class="fa fa-angle-right"></span></a></td>
         </tr>
         </tfoot>
     </table>
+    </#if>
 </div>

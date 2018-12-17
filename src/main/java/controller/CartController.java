@@ -14,7 +14,7 @@ public class CartController {
         model.addAttribute("title","Cart");
         model.addAttribute("userClick", "cart");
 
-
+        model.addAttribute("cartLines", null);
         return "index";
     }
 }

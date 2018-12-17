@@ -53,7 +53,6 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
                 // only user
                 .antMatchers("/cart/**").hasAnyAuthority("ADMIN","USER")
 
-
                 // rest
                 .antMatchers("/register","/login").anonymous()
                 .antMatchers("/**").permitAll()

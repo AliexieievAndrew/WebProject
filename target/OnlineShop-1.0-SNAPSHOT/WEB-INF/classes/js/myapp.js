@@ -14,6 +14,9 @@ $(function () {
 
 
    // solving the active menu problem (button lights)
+//      case 'About': - take from tittle
+//          $('#about').addClass('active'); - take from navbar id element
+//              break;
    switch (menu) {
        case 'About':
            $('#about').addClass('active');
@@ -26,6 +29,9 @@ $(function () {
            break;
        case 'Manage Products':
            $('#manageproducts').addClass('active');
+           break;
+       case 'Cart':
+           $('#cart').addClass('active');
            break;
        default:
            $('#home').addClass('active');
@@ -287,4 +293,34 @@ $(function () {
             }
         });
     }
+
+
+    //    on click product count
+    //    https://stackoverflow.com/questions/4323848/how-to-handle-button-click-events-in-jquery
+    //-----------------------------------
+    $('button[name="refreshCart"]').click(function () {
+    //   get cartLine id
+        var cartLineId = $(this).attr('value');
+
+    //  get count from <input> id = "count_${cartLine.id}"
+        var countProduct = $('#count_' + cartLineId);
+
+    //  get true count from <input> value = "${cartLine.productCount}"
+        var trueCount = countProduct.attr('value');
+        var currentCount = countProduct.val();
+
+        // work only when count was changed
+        if(currentCount !== trueCount){
+            console.log("current count: " + currentCount);
+            console.log("true count: " + trueCount);
+            if(trueCount < 1 || trueCount > 20) {
+                countProduct.val(trueCount);
+            }else {
+                var updateUrl = window.contextRoot + '/cart/' + cartLineId + '/update?count=' + currentCount;
+                // go to link
+                window.location.href = updateUrl;
+            }
+        }
+    });
+    //-----------------------------------
 });

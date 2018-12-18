@@ -109,4 +109,9 @@ public class HibernateConfig {
         return new CartLineServiceImpl();
     }
 
+    @Bean
+    public CartService getCartService() {
+        return new CartService();
+    }
+
 }

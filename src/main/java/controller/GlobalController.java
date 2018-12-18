@@ -12,6 +12,9 @@ import service.UserService;
 
 import javax.servlet.http.HttpSession;
 
+/*
+ * Сlass to get the user when he logged
+ */
 @ControllerAdvice // ???????????
 public class GlobalController {
 

@@ -1,6 +1,7 @@
 package service;
 
 import dao.CartLineDAO;
+import dao.ProductDAO;
 import dto.Cart;
 import dto.CartLine;
 import dto.Product;
@@ -20,6 +21,9 @@ public class CartService {
 
     @Autowired
     HttpSession httpSession;
+
+    @Autowired
+    ProductDAO productDAO;
 
     // when user logged userModel != null (look at GlobalController.class)
     private Cart getCart() {
@@ -54,5 +58,56 @@ public class CartService {
 
             return "result=updated";
         }
+    }
+
+
+    public String deleteCartLine(int cartLineId){
+        CartLine cartLine = cartLineDAO.get(cartLineId);
+        if (cartLine == null) {
+            return "result=error";
+        }
+
+        Cart cart = this.getCart();
+        cart.setTotal(cart.getTotal() - cartLine.getTotal());
+        cart.setCartLines(cart.getCartLines() - 1);
+
+        cartLineDAO.updateCart(cart);
+        cartLineDAO.delete(cartLine);
+
+
+        return "result=deleted";
+    }
+
+    public String addCartLine(int productId) {
+        double oldTotal = 0;
+
+        Product product = productDAO.get(productId);
+        Cart cart = this.getCart();
+        CartLine cartLine = cartLineDAO.getByCartAndProduct(cart.getId(), productId);
+
+        if (cartLine == null) {
+            cartLine = new CartLine();
+
+            cartLine.setProduct(product);
+            cartLine.setBuyingPrice(product.getUnitPrice());
+            cartLine.setCartId(cart.getId());
+            cartLine.setProductCount(1);
+            cartLine.setTotal(product.getUnitPrice() * cartLine.getProductCount());
+
+            cartLineDAO.add(cartLine);
+        } else {
+            oldTotal = cartLine.getTotal();
+            cartLine.setProductCount(cartLine.getProductCount() + 1);
+            cartLine.setTotal(product.getUnitPrice() * cartLine.getProductCount());
+
+            cartLineDAO.update(cartLine);
+        }
+
+        cart.setTotal(cart.getTotal() - oldTotal + cartLine.getTotal());
+        cart.setCartLines(cart.getCartLines() + 1);
+
+        cartLineDAO.updateCart(cart);
+
+        return "result=added";
     }
 }

@@ -17,7 +17,7 @@
             </div>
         </#if>
 
-    <#if cartLines??>
+    <#if cartLines?has_content>
 
         <table id="cart" class="table table-hover table-condensed">
         <thead>
@@ -62,9 +62,12 @@
                 <td data-th="Subtotal" class="text-center">${cartLine.total}</td>
                 <td class="actions" data-th="">
 
+                    <#--Button Refresh quaintity of product-->
                     <#--attr value sending to myapp.js-->
                     <button class="btn btn-info btn-sm" name="refreshCart" value="${cartLine.id}"><span class="fa fa-refresh"></span></button>
-                    <button class="btn btn-danger btn-sm"><span class="fa fa-trash-o"></span></button>
+
+                    <#--Delete cartline from cart-->
+                    <a href="${context}/cart/${cartLine.id}/delete" class="btn btn-danger btn-sm"><span class="fa fa-trash-o"></span></a>
                 </td>
             </tr>
         </#list>
@@ -73,6 +76,7 @@
         <tr>
             <td><a href="${context}/show/all/products" class="btn btn-warning"><span class="fa fa-angle-left"></span> Continue Shopping</a></td>
             <td colspan="2" class="hidden-xs"></td>
+
             <td class="hidden-xs text-center">
                 <strong>${userModel.cart.total}</strong>
             </td>

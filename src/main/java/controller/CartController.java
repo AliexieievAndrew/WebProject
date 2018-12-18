@@ -33,19 +33,37 @@ public class CartController {
                 case "error":
                     model.addAttribute("message","cart not updated: error");
                     break;
+                case "deleted":
+                    model.addAttribute("message","cart line deleted");
+                    break;
+                case "added":
+                    model.addAttribute("message","you have added product to cart");
+                    break;
             }
         }
 
         model.addAttribute("title","Cart");
         model.addAttribute("userClick", "cart");
-
         model.addAttribute("cartLines", cartService.getCartLines());
         return "index";
     }
 
     @GetMapping("/{id}/update")
-    public String updateCount(@PathVariable("id") int cartLineId, @RequestParam(name = "count") int count, Model model){
+    public String updateCount(@PathVariable("id") int cartLineId, @RequestParam(name = "count") int count){
         String response = cartService.updateCartLine(cartLineId, count);
+        return "redirect:/cart/show?" + response;
+    }
+
+    @GetMapping("/{id}/delete")
+    public String deleteCartLine(@PathVariable("id") int cartLineId){
+        String response = cartService.deleteCartLine(cartLineId);
+        return "redirect:/cart/show?" + response;
+    }
+
+    //
+    @GetMapping("add/{id}/product")
+    public String addCartLine(@PathVariable("id") int productId){
+        String response = cartService.addCartLine(productId);
         return "redirect:/cart/show?" + response;
     }
 }

@@ -60,7 +60,7 @@ public class CartLineDAOImpl implements CartLineDAO {
 
     @Override
     public List<CartLine> list(int cartId) {
-        String sql = "FROM CartLine WHERE cartId = :cartId";
+        String sql = "FROM CartLine WHERE cartId = :cartId AND is_ordered = 0";
 
         return sessionFactory
                 .getCurrentSession()
@@ -69,9 +69,8 @@ public class CartLineDAOImpl implements CartLineDAO {
                 .getResultList();
     }
 
-    @Override
-    public List<CartLine> listAvailable(int cartId) {
-        String sql = "FROM CartLine WHERE cartId = :cartId AND is_available = 1";
+    public List<CartLine> listOrdered(int cartId) {
+        String sql = "FROM CartLine WHERE cartId = :cartId AND is_ordered = 1";
 
         return sessionFactory
                 .getCurrentSession()

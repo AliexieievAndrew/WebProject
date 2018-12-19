@@ -14,7 +14,7 @@ public interface CartLineDAO {
     List<CartLine> list(int cartId);
 
     // special methods
-    List<CartLine> listAvailable (int cartId);
+    List<CartLine> listOrdered(int cartId);
     CartLine getByCartAndProduct(int cartId, int productId);
 
     // Cart

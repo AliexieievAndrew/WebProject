@@ -31,9 +31,9 @@ public class CartLine implements Serializable {
     @Column(name = "buying_price")
     private double buyingPrice;
 
-    @Column (name = "is_available")
+    @Column (name = "is_ordered")
     @Type(type = "org.hibernate.type.NumericBooleanType")
-    private boolean isAvailable = true;
+    private boolean isOrdered = false;
 
     public int getId() {
         return id;
@@ -83,12 +83,12 @@ public class CartLine implements Serializable {
         this.buyingPrice = buyingPrice;
     }
 
-    public boolean isAvailable() {
-        return isAvailable;
+    public boolean isOrdered() {
+        return isOrdered;
     }
 
-    public void setAvailable(boolean available) {
-        isAvailable = available;
+    public void setOrdered(boolean ordered) {
+        isOrdered = ordered;
     }
 
     @Override
@@ -100,7 +100,7 @@ public class CartLine implements Serializable {
                 ", total=" + total +
                 ", productCount=" + productCount +
                 ", buyingPrice=" + buyingPrice +
-                ", isAvailable=" + isAvailable +
+                ", isOrdered=" + isOrdered +
                 '}';
     }
 }

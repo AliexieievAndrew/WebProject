@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.servlet.http.HttpSession;
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -110,4 +111,29 @@ public class CartService {
 
         return "result=added";
     }
+
+    public String checkout() {
+        Cart cart = this.getCart();
+        List<CartLine> cartLines = cartLineDAO.list(cart.getId());
+
+        cartLines.forEach(e -> {
+            e.setOrdered(true);
+            cartLineDAO.update(e);
+        });
+
+        return "result=ordered";
+    }
+
+    public static void main(String[] args) {
+        List<String> list= new ArrayList<>();
+        for (int j = 0; j < 10; j++) {
+            list.add("elemet: " + (j+1));
+        }
+
+        list.forEach(e->{
+            System.out.println(e);
+            e = e + "edit";
+            System.out.println(e);});
+    }
+
 }

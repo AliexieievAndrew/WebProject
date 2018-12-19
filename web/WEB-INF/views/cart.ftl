@@ -80,7 +80,7 @@
             <td class="hidden-xs text-center">
                 <strong>${userModel.cart.total}</strong>
             </td>
-            <td><a href="#" class="btn btn-success btn-block">Checkout <span class="fa fa-angle-right"></span></a></td>
+            <td><a href="${context}/cart/checkout" class="btn btn-success btn-block">Checkout <span class="fa fa-angle-right"></span></a></td>
         </tr>
         </tfoot>
     </table>

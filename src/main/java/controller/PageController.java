@@ -15,8 +15,6 @@ import service.CategoryService;
 import service.ProductService;
 import service.UserService;
 
-import java.util.List;
-
 
 @Controller
 @RequestMapping("/")
@@ -108,6 +106,7 @@ public class PageController {
     // Register new user
     @GetMapping(value = {"/register"})
     public String register(Model model) {
+        System.out.println("ЭТО ВООБЩЕ РАБОТАЕТ???");
         model.addAttribute("title","register");
         model.addAttribute("userClick", "about");
         return "index";
@@ -152,7 +151,7 @@ public class PageController {
         cartLine.setBuyingPrice(product.getUnitPrice());
         cartLine.setProductCount(cartLine.getProductCount() + 1);
         cartLine.setTotal(cartLine.getProductCount() * product.getUnitPrice());
-        cartLine.setAvailable(true);
+        cartLine.setOrdered(true);
         cartLine.setProduct(product);
 
         cartLine.setCartId(cart.getId());

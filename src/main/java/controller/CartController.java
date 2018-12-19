@@ -39,6 +39,9 @@ public class CartController {
                 case "added":
                     model.addAttribute("message","you have added product to cart");
                     break;
+                case "ordered":
+                    model.addAttribute("message","your order has been placed");
+                    break;
             }
         }
 
@@ -61,9 +64,15 @@ public class CartController {
     }
 
     //
-    @GetMapping("add/{id}/product")
+    @GetMapping("/add/{id}/product")
     public String addCartLine(@PathVariable("id") int productId){
         String response = cartService.addCartLine(productId);
+        return "redirect:/cart/show?" + response;
+    }
+    //
+    @GetMapping("/checkout")
+    public String checkout(){
+        String response = cartService.checkout();
         return "redirect:/cart/show?" + response;
     }
 }

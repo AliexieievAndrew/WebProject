@@ -7,7 +7,7 @@
 * handling of forms.
 *
 * Spring's FreeMarker support will automatically make this file and therefore
-* all macros within it available to any application using Spring's
+* all macros within it ordered to any application using Spring's
 * FreeMarkerConfigurer.
 *
 * To take advantage of these macros, the "exposeSpringMacroHelpers" property
@@ -102,7 +102,7 @@
 * "defaultHtmlEscape" context-param in web.xml (same as for the JSP bind tag).
 * Also regards a "htmlEscape" variable in the namespace of this library.
 *
-* Producing no output, the following context variable will be available
+* Producing no output, the following context variable will be ordered
 * each time this macro is referenced (assuming you import this library in
 * your templates with the namespace 'spring'):
 *
@@ -213,7 +213,7 @@ ${stringStatusValue}</textarea>
 * from a list of options.
 *
 * @param path the name of the field to bind to
-* @param options a map (value=label) of all the available options
+* @param options a map (value=label) of all the ordered options
 * @param attributes any additional attributes for the element
 *    (such as class or CSS styles or size)
 -->
@@ -239,7 +239,7 @@ ${stringStatusValue}</textarea>
 * the list of options.
 *
 * @param path the name of the field to bind to
-* @param options a map (value=label) of all the available options
+* @param options a map (value=label) of all the ordered options
 * @param attributes any additional attributes for the element
 *    (such as class or CSS styles or size)
 -->
@@ -259,7 +259,7 @@ ${stringStatusValue}</textarea>
 * Show radio buttons.
 *
 * @param path the name of the field to bind to
-* @param options a map (value=label) of all the available options
+* @param options a map (value=label) of all the ordered options
 * @param separator the HTML tag or other character list that should be used to
 *    separate each option (typically '&nbsp;' or '<br>')
 * @param attributes any additional attributes for the element
@@ -280,7 +280,7 @@ ${stringStatusValue}</textarea>
 * Show checkboxes.
 *
 * @param path the name of the field to bind to
-* @param options a map (value=label) of all the available options
+* @param options a map (value=label) of all the ordered options
 * @param separator the HTML tag or other character list that should be used to
 *    separate each option (typically '&nbsp;' or '<br>')
 * @param attributes any additional attributes for the element

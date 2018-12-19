@@ -42,8 +42,8 @@ public class CartLineServiceImpl implements CartLineService {
     }
 
     @Override
-    public List<CartLine> listAvailable(int cartId) {
-        return cartLineDAO.listAvailable(cartId);
+    public List<CartLine> listOrdered(int cartId) {
+        return cartLineDAO.listOrdered(cartId);
     }
 
     @Override

@@ -47,7 +47,7 @@
             <ul class = "nav navbar-nav navbar-right">
                 <@security.authorize access = "isAnonymous()">
                     <li id = "register">
-                        <#--  /register - FLOW ID -->
+                        <#--  /register - FLOW ID !!!!!!!!!!!!!!!!! -->
                         <a class="nav-link" href="${context}/register">
                             <span class="fas fa-user-plus"/>
                         </a>
